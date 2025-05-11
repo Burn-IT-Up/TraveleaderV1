@@ -1,0 +1,772 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"="width=device-width, initial-scale=1.0">
+    <title>Đèo Hải Vân (Đà Nẵng – Huế)</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>
+<body>
+    <a href="../../index.html" class="back-button">
+        <i class="fa-solid fa-arrow-left"></i>
+        Quay lại trang chủ
+    </a>
+    <div class="hero-section">
+        <div class="carousel-container">
+            <div class="carousel" id="carousel">
+                <img src="img/deohaivan1.jpg" alt="Ba Na 1">
+                <img src="img/deohaivan2.jpg" alt="Ba Na 2">
+                <img src="img/deohaivan3.jpg" alt="Ba Na 3">
+                <img src="img/deohaivan4.jpg" alt="Ba Na 4">
+                <img src="img/deohaivan5.jpg" alt="Ba Na 5">
+                <img src="img/deohaivan6.jpg" alt="Ba Na 6">
+            </div>
+            <button class="nav-arrow left-nav" id="leftArrow">❮</button>
+            <button class="nav-arrow right-nav" id="rightArrow">❯</button>
+            <div class="dots" id="dots">
+                <span class="dot active"></span>
+                <span class="dot"></span>
+                <span class="dot"></span>
+                <span class="dot"></span>
+                <span class="dot"></span>
+                <span class="dot"></span>
+            </div>
+        </div>
+    </div>
+    <div class="location-info">
+        <div class="title-container">
+            <h1>Đèo Hải Vân (Đà Nẵng – Huế)</h1>
+            <button class="save-button"><i class="fa-regular fa-bookmark"></i> Lưu</button>
+        </div>
+        <p class="description" id="description">Nằm giữa ranh giới tự nhiên của Đà Nẵng và Thừa Thiên Huế, Đèo Hải Vân được mệnh danh là "Thiên hạ đệ nhất hùng quan" – nơi hội tụ vẻ đẹp hùng vĩ, thơ mộng và kỳ bí của đất trời miền Trung. Với chiều dài gần 20km, đèo uốn lượn quanh co giữa những triền núi cao và biển cả bao la, tạo nên khung cảnh ngoạn mục, vừa hùng tráng vừa lãng mạn.
+
+            Trên đỉnh đèo, bạn sẽ bắt gặp Hải Vân Quan – công trình lịch sử ghi dấu ấn của nhiều triều đại phong kiến, nay vẫn đứng sừng sững như minh chứng cho sự trường tồn của thời gian. Từ đây, phóng tầm mắt ra xa, bạn có thể thu trọn cả vịnh Đà Nẵng, bán đảo Sơn Trà và đường bờ biển tuyệt đẹp vào tầm mắt.
+            
+            Không chỉ là một cung đường tuyệt đẹp dành cho những tay lái đam mê khám phá, Đèo Hải Vân còn là biểu tượng của sự giao thoa giữa thiên nhiên, văn hóa và lịch sử. Mỗi khúc cua, mỗi làn sương mờ ảo như kể lại câu chuyện ngàn đời về một vùng đất kiêu hãnh và đầy bản sắc.
+            
+            </p>
+        <a href="#" class="read-more" id="readMore"><span class="read-more-text">Đọc thêm</span> <i class="fa-solid fa-angle-down"></i></a>
+    </div>
+    <div class="travel-advice">
+        <h2>Bật mí những trải nghiệm khi đến Đèo Hải Vân</h2>
+        <div class="advice-grid">
+            <div class="advice-card">
+
+                <div class="advice-content">
+                    <h3>Phượt qua "cung đường mây"</h3>
+                    <p>Cảm giác chinh phục những khúc cua quanh co giữa núi rừng xanh thẳm và biển cả mênh mông sẽ khiến tim bạn "thổn thức" – thiên đường lý tưởng cho người mê khám phá và chụp ảnh.</p>
+                </div>
+            </div>
+            <div class="advice-card">
+                <div class="advice-content">
+                    <h3>Săn mây trên đỉnh đèo</h3>
+                    <p>Vào những sáng sớm, đèo Hải Vân như khoác một chiếc áo sương mờ kỳ ảo. Đứng giữa mây trời lững lờ trôi, bạn sẽ có cảm giác như lạc vào chốn bồng lai.</p>
+                </div>
+            </div>
+            <div class="advice-card">
+                <div class="advice-content">
+                    <h3>Check-in sống ảo cực "chất"</h3>
+                    <p>Mỗi góc đèo, mỗi khung cảnh đều là phông nền tuyệt đẹp cho ảnh du lịch, đặc biệt vào lúc hoàng hôn khi ánh nắng nhuộm vàng triền đèo và biển khơi.</p>
+                </div>
+            </div>
+            <div class="advice-card">
+                <div class="advice-content">
+                    <h3>Thưởng thức hải sản ven đèo</h3>
+                    <p>Dưới chân đèo phía Đà Nẵng có nhiều quán hải sản tươi sống, giá phải chăng. Sau một hành trình rong ruổi, thưởng thức một đĩa mực nướng hay bát cháo nghêu nóng hổi là "chuẩn bài"!</p>
+                </div>
+            </div>
+            <div class="advice-card">
+                <div class="advice-content">
+                    <h3>Ngắm tàu chạy xuyên đèo</h3>
+                    <p>Ngay dưới chân đèo là tuyến đường sắt Bắc – Nam chạy men theo triền núi và xuyên qua các hầm đá. Từ trên cao, bạn có thể nhìn thấy đoàn tàu uốn lượn giữa rừng và biển – một khung cảnh cực kỳ nên thơ và hiếm có.</p>
+                </div>
+            </div>
+            <div class="advice-card">
+                <div class="advice-content">
+                    <h3>Đón bình minh hoặc hoàng hôn giữa thiên nhiên hùng vĩ</h3>
+                    <p>Sáng sớm hoặc chiều muộn là thời khắc đẹp nhất ở Hải Vân, khi mặt trời dần ló rạng từ biển hoặc lặng lẽ khuất sau núi, tạo nên khung cảnh rực rỡ và tuyệt mỹ khó diễn tả.</p>
+                </div>
+            </div>
+            <div class="advice-card">
+                <div class="advice-content">
+                    <h3>Trải nghiệm cảm giác đứng giữa ranh giới hai vùng đất</h3>
+                    <p>Tại Hải Vân Quan, bạn đứng giữa ranh giới Đà Nẵng và Thừa Thiên Huế, một bên là nắng ấm Đà Nẵng, một bên là sương mờ xứ Huế – cảm giác như đi qua hai miền đất chỉ trong một bước chân.</p>
+                </div>
+            </div>
+            <div class="advice-card">
+                <div class="advice-content">
+                    <h3>Vẽ, viết hoặc thiền giữa không gian yên bình</h3>
+                    <p>Nhiều du khách mang theo sổ tay để vẽ hoặc viết nhật ký hành trình tại đèo Hải Vân, nơi không gian rộng lớn, thoáng đãng là điểm lý tưởng để thư giãn, sáng tạo và lắng nghe chính mình.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="places-to-stay">
+        <div class="section-header">
+            <h2>Nơi nghỉ ngơi lý tưởng tại Đèo Hải Vân</h2>
+            <a href="#" class="see-all">Xem thêm</a>
+        </div>
+        <div class="hotels-grid">
+            <div class="hotel-card">
+                <button class="favorite-btn"><i class="fa-regular fa-heart"></i></button>
+                <div class="hotel-images">
+                    <div class="hotel-carousel">
+                        <img src="img/place/hotel13 1.jpg" alt="Hotel view 1">
+                        <img src="img/place/hotel13 2.jpg" alt="Hotel view 2">
+                        <img src="img/place/hotel13 3.jpg" alt="Hotel view 3">
+                        <img src="img/place/hotel13 4.jpg" alt="Hotel view 4">
+                        <img src="img/place/hotel13 5.jpg" alt="Hotel view 5">
+                    </div>
+                    <button class="nav-arrow left-nav">❮</button>
+                    <button class="nav-arrow right-nav">❯</button>
+                    <div class="image-dots">
+                        <span class="dot active"></span>
+                        <span class="dot"></span>
+                        <span class="dot"></span>
+                        <span class="dot"></span>
+                        <span class="dot"></span>
+                    </div>
+                </div>
+                <div class="hotel-info">
+                    <h3>Langco Bay Retreat</h3>
+                    <div class="rating">
+                        <span class="score">5.0 </span>
+                        <span class="stars">★★★★★</span>
+                        <span class="reviews">(1,648)</span>
+                    </div>
+                </div>
+            </div>
+            <div class="hotel-card">
+                <button class="favorite-btn"><i class="fa-regular fa-heart"></i></button>
+                <div class="hotel-images">
+                    <div class="hotel-carousel">
+                        <img src="img/place/hotel23 1.jpg" alt="Hotel view 1">
+                        <img src="img/place/hotel23 2.jpg" alt="Hotel view 2">
+                        <img src="img/place/hotel23 3.jpg" alt="Hotel view 3">
+                        <img src="img/place/hotel23 4.jpg" alt="Hotel view 4">
+                        <img src="img/place/hotel23 5.jpg" alt="Hotel view 5">
+                    </div>
+                    <button class="nav-arrow left-nav">❮</button>
+                    <button class="nav-arrow right-nav">❯</button>
+                    <div class="image-dots">
+                        <span class="dot active"></span>
+                        <span class="dot"></span>
+                        <span class="dot"></span>
+                        <span class="dot"></span>
+                        <span class="dot"></span>
+                    </div>
+                </div>
+                <div class="hotel-info">
+                    <h3>Lang Co Beach Resort</h3>
+                    <div class="rating">
+                        <span class="score">4.0</span>
+                        <span class="stars">★★★★☆</span>
+                        <span class="reviews">(951)</span>
+                    </div>
+                </div>
+            </div>
+            <div class="hotel-card">
+                <button class="favorite-btn"><i class="fa-regular fa-heart"></i></button>
+                <div class="hotel-images">
+                    <div class="hotel-carousel">
+                        <img src="img/place/hotel33 1.jpg" alt="Hotel view 1">
+                        <img src="img/place/hotel33 2.jpg" alt="Hotel view 2">
+                        <img src="img/place/hotel33 3.jpg" alt="Hotel view 3">
+                        <img src="img/place/hotel33 4.jpg" alt="Hotel view 4">
+                        <img src="img/place/hotel33 5.jpg" alt="Hotel view 5">
+                    </div>
+                    <button class="nav-arrow left-nav">❮</button>
+                    <button class="nav-arrow right-nav">❯</button>
+                    <div class="image-dots">
+                        <span class="dot active"></span>
+                        <span class="dot"></span>
+                        <span class="dot"></span>
+                        <span class="dot"></span>
+                        <span class="dot"></span>
+                    </div>
+                </div>
+                <div class="hotel-info">
+                    <h3>Le House Hotel and Studio</h3>
+                    <div class="rating">
+                        <span class="score">4.3</span>
+                        <span class="stars">★★★★☆</span>
+                        <span class="reviews">(825)</span>
+                    </div>
+                </div>
+            </div>
+            <div class="hotel-card">
+                <button class="favorite-btn"><i class="fa-regular fa-heart"></i></button>
+                <div class="hotel-images">
+                    <div class="hotel-carousel">
+                        <img src="img/place/hotel43 1.jpg" alt="Hotel view 1">
+                        <img src="img/place/hotel43 2.jpg" alt="Hotel view 2">
+                        <img src="img/place/hotel43 3.jpg" alt="Hotel view 3">
+                        <img src="img/place/hotel43 4.jpg" alt="Hotel view 4">
+                        <img src="img/place/hotel43 5.jpg" alt="Hotel view 5">
+                    </div>
+                    <button class="nav-arrow left-nav">❮</button>
+                    <button class="nav-arrow right-nav">❯</button>
+                    <div class="image-dots">
+                        <span class="dot active"></span>
+                        <span class="dot"></span>
+                        <span class="dot"></span>
+                        <span class="dot"></span>
+                        <span class="dot"></span>
+                    </div>
+                </div>
+                <div class="hotel-info">
+                    <h3>Cami Riverside Resort Đà Nẵng</h3>
+                    <div class="rating">
+                        <span class="score">4.6</span>
+                        <span class="stars">★★★★☆</span>
+                        <span class="reviews">(1,427)</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="hotel-card">
+                <button class="favorite-btn"><i class="fa-regular fa-heart"></i></button>
+                <div class="hotel-images">
+                    <div class="hotel-carousel">
+                        <img src="img/place/hotel53 1.jpg" alt="Hotel view 1">
+                        <img src="img/place/hotel53 2.jpg" alt="Hotel view 2">
+                        <img src="img/place/hotel53 3.jpg" alt="Hotel view 3">
+                        <img src="img/place/hotel53 4.jpg" alt="Hotel view 4">
+                        <img src="img/place/hotel53 5.jpg" alt="Hotel view 5">
+                    </div>
+                    <button class="nav-arrow left-nav">❮</button>
+                    <button class="nav-arrow right-nav">❯</button>
+                    <div class="image-dots">
+                        <span class="dot active"></span>
+                        <span class="dot"></span>
+                        <span class="dot"></span>
+                        <span class="dot"></span>
+                        <span class="dot"></span>
+                    </div>
+                </div>
+                <div class="hotel-info">
+                    <h3>Moskva Motel & Apartment Danang</h3>
+                    <div class="rating">
+                        <span class="score">4.7</span>
+                        <span class="stars">★★★★☆</span>
+                        <span class="reviews">(1,281)</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="hotel-card">
+                <button class="favorite-btn"><i class="fa-regular fa-heart"></i></button>
+                <div class="hotel-images">
+                    <div class="hotel-carousel">
+                        <img src="img/place/hotel63 1.jpg" alt="Hotel view 1">
+                        <img src="img/place/hotel63 2.jpg" alt="Hotel view 2">
+                        <img src="img/place/hotel63 3.jpg" alt="Hotel view 3">
+                        <img src="img/place/hotel63 4.jpg" alt="Hotel view 4">
+                        <img src="img/place/hotel63 5.jpg" alt="Hotel view 5">
+                    </div>
+                    <button class="nav-arrow left-nav">❮</button>
+                    <button class="nav-arrow right-nav">❯</button>
+                    <div class="image-dots">
+                        <span class="dot active"></span>
+                        <span class="dot"></span>
+                        <span class="dot"></span>
+                        <span class="dot"></span>
+                        <span class="dot"></span>
+                    </div>
+                </div>
+                <div class="hotel-info">
+                    <h3>B&H Villa</h3>
+                    <div class="rating">
+                        <span class="score">4.4</span>
+                        <span class="stars">★★★★☆</span>
+                        <span class="reviews">(369)</span>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+    <div class="places-to-stay">
+        <div class="section-header">
+            <h2>Những hoạt động không thể bỏ lỡ tại Đèo Hải Vân</h2>
+            <a href="#" class="see-all">Xem thêm</a>
+        </div>
+        <div class="activities-grid">
+            <div class="activity-card">
+                <button class="favorite-btn"><i class="fa-regular fa-heart"></i></button>
+                <div class="activity-images">
+                    <div class="activity-carousel">
+                        <img src="img/activity/act13 1.jpg" alt="Act 1">
+                        <img src="img/activity/act13 2.jpg" alt="Act 2">
+                        <img src="img/activity/act13 3.jpg" alt="Act 3">
+                    </div>
+                    <button class="nav-arrow left-nav">❮</button>
+                    <button class="nav-arrow right-nav">❯</button>
+                    <div class="image-dots">
+                        <span class="dot active"></span>
+                        <span class="dot"></span>
+                        <span class="dot"></span>
+                    </div>
+                </div>
+                <div class="activity-info">
+                    <h3>Săn mây</h3>
+                    <p class="price">➥ Vào sáng sớm, mây phủ kín những cung đường đèo, tạo nên khung cảnh huyền ảo như cổ tích. Đây là thời điểm lý tưởng để "săn mây" và chụp những bức ảnh để đời.</p>
+                </div>
+            </div>
+            <div class="activity-card">
+                <button class="favorite-btn"><i class="fa-regular fa-heart"></i></button>
+                <div class="activity-images">
+                    <div class="activity-carousel">
+                        <img src="img/activity/act23 1.jpg" alt="Act 1">
+                        <img src="img/activity/act23 2.jpg" alt="Act 2">
+                        <img src="img/activity/act23 3.jpg" alt="Act 3">
+                    </div>
+                    <button class="nav-arrow left-nav">❮</button>
+                    <button class="nav-arrow right-nav">❯</button>
+                    <div class="image-dots">
+                        <span class="dot active"></span>
+                        <span class="dot"></span>
+                        <span class="dot"></span>
+                    </div>
+                </div>
+                <div class="activity-info">
+                    <h3>Phượt đèo bằng xe máy</h3>
+                    <p class="price">➥ Với những khúc cua tay áo uốn lượn giữa núi rừng và biển cả, Đèo Hải Vân là điểm đến yêu thích của dân "phượt" muốn chinh phục thử thách và tận hưởng thiên nhiên hùng vĩ.</p>
+                </div>
+                </div>
+            <div class="activity-card">
+                <button class="favorite-btn"><i class="fa-regular fa-heart"></i></button>
+                <div class="activity-images">
+                    <div class="activity-carousel">
+                        <img src="img/activity/act33 1.jpg" alt="Act 1">
+                        <img src="img/activity/act33 2.jpg" alt="Act 2">
+                        <img src="img/activity/act33 3.jpg" alt="Act 3">
+                    </div>
+                    <button class="nav-arrow left-nav">❮</button>
+                    <button class="nav-arrow right-nav">❯</button>
+                    <div class="image-dots">
+                        <span class="dot active"></span>
+                        <span class="dot"></span>
+                        <span class="dot"></span>
+                    </div>
+                </div>
+                <div class="activity-info">
+                    <h3>Check-in tại Hải Vân Quan</h3>
+                    <p class="price">➥ Di tích lịch sử mang giá trị văn hóa – Hải Vân Quan nằm trên đỉnh đèo là điểm dừng chân lý tưởng để ngắm toàn cảnh vịnh Đà Nẵng, Lăng Cô và những dãy núi trùng điệp.</p>
+                </div>
+            </div>
+            <div class="activity-card">
+                <button class="favorite-btn"><i class="fa-regular fa-heart"></i></button>
+                <div class="activity-images">
+                    <div class="activity-carousel">
+                        <img src="img/activity/act43 1.jpg" alt="Act 1">
+                        <img src="img/activity/act43 2.jpg" alt="Act 2">
+                        <img src="img/activity/act43 3.jpg" alt="Act 3">
+                    </div>
+                    <button class="nav-arrow left-nav">❮</button>
+                    <button class="nav-arrow right-nav">❯</button>
+                    <div class="image-dots">
+                        <span class="dot active"></span>
+                        <span class="dot"></span>
+                        <span class="dot"></span>
+                    </div>
+                </div>
+                <div class="activity-info">
+                    <h3>Ngắm đoàn tàu xuyên núi</h3>
+                    <p class="price">➥ Từ các điểm cao, bạn có thể bắt trọn khoảnh khắc đoàn tàu Bắc – Nam len qua những vách đá sát biển – một hình ảnh tuyệt đẹp như trong phim.</p>
+                </div>
+            </div>
+            <div class="activity-card">
+                <button class="favorite-btn"><i class="fa-regular fa-heart"></i></button>
+                <div class="activity-images">
+                    <div class="activity-carousel">
+                        <img src="img/activity/act53 1.jpg" alt="Act 1">
+                        <img src="img/activity/act53 2.jpg" alt="Act 2">
+                        <img src="img/activity/act53 3.jpg" alt="Act 3">
+                    </div>
+                    <button class="nav-arrow left-nav">❮</button>
+                    <button class="nav-arrow right-nav">❯</button>
+                    <div class="image-dots">
+                        <span class="dot active"></span>
+                        <span class="dot"></span>
+                        <span class="dot"></span>
+                    </div>
+                </div>
+                <div class="activity-info">
+                    <h3>Dừng chân thưởng thức đặc sản ven đèo</h3>
+                    <p class="price">➥ Dưới chân đèo, đặc biệt phía Lăng Cô hoặc Xuân Thiều, có nhiều quán nhỏ bán mực một nắng, hải sản nướng, nước mía... vừa dân dã vừa ngon miệng, giúp bạn nạp lại năng lượng giữa hành trình.</p>
+                </div>
+            </div>
+            <div class="activity-card">
+                <button class="favorite-btn"><i class="fa-regular fa-heart"></i></button>
+                <div class="activity-images">
+                    <div class="activity-carousel">
+                        <img src="img/activity/act63 1.jpg" alt="Act 1">
+                        <img src="img/activity/act63 2.jpg" alt="Act 2">
+                        <img src="img/activity/act63 3.jpg" alt="Act 3">
+                    </div>
+                    <button class="nav-arrow left-nav">❮</button>
+                    <button class="nav-arrow right-nav">❯</button>
+                    <div class="image-dots">
+                        <span class="dot active"></span>
+                        <span class="dot"></span>
+                        <span class="dot"></span>
+                    </div>
+                </div>
+                <div class="activity-info">
+                    <h3>Ngắm hoàng hôn hoặc bình minh trên đỉnh đèo</h3>
+                    <p class="price">➥ Dù là lúc bình minh rực rỡ hay hoàng hôn nhuộm đỏ chân trời, đứng trên đèo Hải Vân sẽ khiến bạn có cảm giác như đang ôm trọn cả thiên nhiên vào lòng. </p>
+                </div>
+            </div>
+            <div class="activity-card">
+                <button class="favorite-btn"><i class="fa-regular fa-heart"></i></button>
+                <div class="activity-images">
+                    <div class="activity-carousel">
+                        <img src="img/activity/act73 1.jpg" alt="Act 1">
+                        <img src="img/activity/act73 2.jpg" alt="Act 2">
+                        <img src="img/activity/act73 3.jpg" alt="Act 3">
+                    </div>
+                    <button class="nav-arrow left-nav">❮</button>
+                    <button class="nav-arrow right-nav">❯</button>
+                    <div class="image-dots">
+                        <span class="dot active"></span>
+                        <span class="dot"></span>
+                        <span class="dot"></span>
+                    </div>
+                </div>
+                <div class="activity-info">
+                    <h3>Picnic nhẹ trên các điểm dừng đèo</h3>
+                    <p class="price">➥ Một bữa picnic đơn giản bên bạn bè, bánh mì kẹp, trái cây và ly cà phê nóng – giữa núi trời và gió biển – là trải nghiệm đáng thử nếu bạn có nhiều thời gian.</p>
+                </div>
+            </div>
+            <div class="activity-card">
+                <button class="favorite-btn"><i class="fa-regular fa-heart"></i></button>
+                <div class="activity-images">
+                    <div class="activity-carousel">
+                        <img src="img/activity/act83 1.jpg" alt="Act 1">
+                        <img src="img/activity/act83 2.jpg" alt="Act 2">
+                        <img src="img/activity/act83 3.jpg" alt="Act 3">
+                    </div>
+                    <button class="nav-arrow left-nav">❮</button>
+                    <button class="nav-arrow right-nav">❯</button>
+                    <div class="image-dots">
+                        <span class="dot active"></span>
+                        <span class="dot"></span>
+                        <span class="dot"></span>
+                    </div>
+                </div>
+                <div class="activity-info">
+                    <h3>Khám phá đường mòn và rừng thông ven đèo</h3>
+                    <p class="price">➥ Một vài đoạn ven đèo Hải Vân có lối mòn nhỏ dẫn vào rừng thông, rất phù hợp cho những ai thích trekking nhẹ, khám phá cảnh sắc tự nhiên nguyên sơ.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="places-to-stay">
+        <div class="section-header">
+            <h2>Những món quà nhỏ mang hương vị Đèo Hải Vân</h2>
+            <a href="#" class="see-all">Xem thêm</a>
+        </div>
+        <div class="activities-grid">
+            <div class="activity-card">
+                <button class="favorite-btn"><i class="fa-regular fa-heart"></i></button>
+                <div class="activity-images">
+                    <div class="activity-carousel">
+                        <img src="img/souvenirs/sou13 1.jpg" alt="Sou 1">
+                        <img src="img/souvenirs/sou13 2.jpg" alt="Sou 2">
+                        <img src="img/souvenirs/sou13 3.jpg" alt="Sou 3">
+                    </div>
+                    <button class="nav-arrow left-nav">❮</button>
+                    <button class="nav-arrow right-nav">❯</button>
+                    <div class="image-dots">
+                        <span class="dot active"></span>
+                        <span class="dot"></span>
+                        <span class="dot"></span>
+                    </div>
+                </div>
+                <div class="activity-info">
+                    <h3>Hạt dẻ rang muối</h3>
+                    <p class="price">~50.000 - 80.000đ/gói 200g</p>
+                </div>
+            </div>
+            <div class="activity-card">
+                <button class="favorite-btn"><i class="fa-regular fa-heart"></i></button>
+                <div class="activity-images">
+                    <div class="activity-carousel">
+                        <img src="img/souvenirs/sou23 1.jpg" alt="Sou 1">
+                        <img src="img/souvenirs/sou23 2.jpg" alt="Sou 2">
+                        <img src="img/souvenirs/sou23 3.jpg" alt="Sou 3">
+                    </div>
+                    <button class="nav-arrow left-nav">❮</button>
+                    <button class="nav-arrow right-nav">❯</button>
+                    <div class="image-dots">
+                        <span class="dot active"></span>
+                        <span class="dot"></span>
+                        <span class="dot"></span>
+                    </div>
+                </div>
+                <div class="activity-info">
+                    <h3>Mật ong rừng Hải Vân</h3>
+                    <p class="price">~100.000 - 150.000đ/chai 250ml</p>
+                </div>
+                </div>
+            <div class="activity-card">
+                <button class="favorite-btn"><i class="fa-regular fa-heart"></i></button>
+                <div class="activity-images">
+                    <div class="activity-carousel">
+                        <img src="img/souvenirs/sou33 1.jpg" alt="Sou 1">
+                        <img src="img/souvenirs/sou33 2.jpg" alt="Sou 2">
+                        <img src="img/souvenirs/sou33 3.jpg" alt="Sou 3">
+                    </div>
+                    <button class="nav-arrow left-nav">❮</button>
+                    <button class="nav-arrow right-nav">❯</button>
+                    <div class="image-dots">
+                        <span class="dot active"></span>
+                        <span class="dot"></span>
+                        <span class="dot"></span>
+                    </div>
+                </div>
+                <div class="activity-info">
+                    <h3>Muối mè (muối vừng) Huế</h3>
+                    <p class="price">~10.000 - 25.000đ/gói</p>
+                </div>
+            </div>
+            <div class="activity-card">
+                <button class="favorite-btn"><i class="fa-regular fa-heart"></i></button>
+                <div class="activity-images">
+                    <div class="activity-carousel">
+                        <img src="img/souvenirs/sou43 1.jpg" alt="Sou 1">
+                        <img src="img/souvenirs/sou43 2.jpg" alt="Sou 2">
+                        <img src="img/souvenirs/sou43 3.jpg" alt="Sou 3">
+                    </div>
+                    <button class="nav-arrow left-nav">❮</button>
+                    <button class="nav-arrow right-nav">❯</button>
+                    <div class="image-dots">
+                        <span class="dot active"></span>
+                        <span class="dot"></span>
+                        <span class="dot"></span>
+                    </div>
+                </div>
+                <div class="activity-info">
+                    <h3>Trà cúc cam thảo (thảo mộc Đèo Hải Vân)</h3>
+                    <p class="price">~50.000 - 70.000đ/túi trà khô 100g</p>
+                </div>
+            </div>
+            <div class="activity-card">
+                <button class="favorite-btn"><i class="fa-regular fa-heart"></i></button>
+                <div class="activity-images">
+                    <div class="activity-carousel">
+                        <img src="img/souvenirs/sou53 1.jpg" alt="Sou 1">
+                        <img src="img/souvenirs/sou53 2.jpg" alt="Sou 2">
+                        <img src="img/souvenirs/sou53 3.jpg" alt="Sou 3">
+                    </div>
+                    <button class="nav-arrow left-nav">❮</button>
+                    <button class="nav-arrow right-nav">❯</button>
+                    <div class="image-dots">
+                        <span class="dot active"></span>
+                        <span class="dot"></span>
+                        <span class="dot"></span>
+                    </div>
+                </div>
+                <div class="activity-info">
+                    <h3>Đậu phộng Chùa</h3>
+                    <p class="price">~25.000 - 40.000đ/gói 150g</p>
+                </div>
+            </div>
+            <div class="activity-card">
+                <button class="favorite-btn"><i class="fa-regular fa-heart"></i></button>
+                <div class="activity-images">
+                    <div class="activity-carousel">
+                        <img src="img/souvenirs/sou63 1.jpg" alt="Sou 1">
+                        <img src="img/souvenirs/sou63 2.jpg" alt="Sou 2">
+                        <img src="img/souvenirs/sou63 3.jpg" alt="Sou 3">
+                    </div>
+                    <button class="nav-arrow left-nav">❮</button>
+                    <button class="nav-arrow right-nav">❯</button>
+                    <div class="image-dots">
+                        <span class="dot active"></span>
+                        <span class="dot"></span>
+                        <span class="dot"></span>
+                    </div>
+                </div>
+                <div class="activity-info">
+                    <h3>Bánh khô mè Đà Nẵng</h3>
+                    <p class="price">~20.000 - 35.000đ/hộp nhỏ</p>
+                </div>
+            </div>
+            <div class="activity-card">
+                <button class="favorite-btn"><i class="fa-regular fa-heart"></i></button>
+                <div class="activity-images">
+                    <div class="activity-carousel">
+                        <img src="img/souvenirs/sou73 1.jpg" alt="Sou 1">
+                        <img src="img/souvenirs/sou73 2.jpg" alt="Sou 2">
+                        <img src="img/souvenirs/sou73 3.jpg" alt="Sou 3">
+                    </div>
+                    <button class="nav-arrow left-nav">❮</button>
+                    <button class="nav-arrow right-nav">❯</button>
+                    <div class="image-dots">
+                        <span class="dot active"></span>
+                        <span class="dot"></span>
+                        <span class="dot"></span>
+                    </div>
+                </div>
+                <div class="activity-info">
+                    <h3>Ớt khô hoặc sa tế tỏi ớt</h3>
+                    <p class="price">~25.000 - 40.000đ/hũ nhỏ 100gl</p>
+                </div>
+            </div>
+            <div class="activity-card">
+                <button class="favorite-btn"><i class="fa-regular fa-heart"></i></button>
+                <div class="activity-images">
+                    <div class="activity-carousel">
+                        <img src="img/souvenirs/sou83 1.jpg" alt="Sou 1">
+                        <img src="img/souvenirs/sou83 2.jpg" alt="Sou 2">
+                        <img src="img/souvenirs/sou83 3.jpg" alt="Sou 3">
+                    </div>
+                    <button class="nav-arrow left-nav">❮</button>
+                    <button class="nav-arrow right-nav">❯</button>
+                    <div class="image-dots">
+                        <span class="dot active"></span>
+                        <span class="dot"></span>
+                        <span class="dot"></span>
+                    </div>
+                </div>
+                <div class="activity-info">
+                    <h3>Rong biển khô Lăng Cô</h3>
+                    <p class="price">~40.000 - 70.000đ/gói 100g</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        const carousel = document.getElementById('carousel');
+        const leftArrow = document.querySelector('.carousel-container .left-nav');
+        const rightArrow = document.querySelector('.carousel-container .right-nav');
+        const dots = document.querySelectorAll('.carousel-container .dot');
+        let currentIndex = 0;
+
+        function updateCarousel() {
+            carousel.style.transform = `translateX(-${currentIndex * 100}%)`;
+            dots.forEach((dot, index) => {
+                dot.classList.toggle('active', index === currentIndex);
+            });
+        }
+
+        leftArrow.addEventListener('click', () => {
+            currentIndex = (currentIndex > 0) ? currentIndex - 1 : dots.length - 1;
+            updateCarousel();
+        });
+
+        rightArrow.addEventListener('click', () => {
+            currentIndex = (currentIndex < dots.length - 1) ? currentIndex + 1 : 0;
+            updateCarousel();
+        });
+
+        dots.forEach((dot, index) => {
+            dot.addEventListener('click', () => {
+                currentIndex = index;
+                updateCarousel();
+            });
+        });
+
+        const readMoreLink = document.getElementById('readMore');
+        const description = document.getElementById('description');
+        const readMoreText = readMoreLink.querySelector('.read-more-text');
+        
+        readMoreLink.addEventListener('click', (e) => {
+            e.preventDefault();
+            description.classList.toggle('expanded');
+            const isExpanded = description.classList.contains('expanded');
+            readMoreText.textContent = isExpanded ? 'Thu gọn' : 'Đọc thêm';
+            readMoreLink.querySelector('i').className = isExpanded ? 'fa-solid fa-angle-up' : 'fa-solid fa-angle-down';
+        });
+
+        document.querySelectorAll('.hotel-card').forEach(card => {
+            const carousel = card.querySelector('.hotel-carousel');
+            const images = card.querySelectorAll('.hotel-carousel img');
+            const dots = card.querySelectorAll('.image-dots .dot');
+            const leftNav = card.querySelector('.left-nav');
+            const rightNav = card.querySelector('.right-nav');
+            let currentIndex = 0;
+
+            function updateCarousel() {
+                carousel.style.transform = `translateX(-${currentIndex * 100}%)`;
+                dots.forEach((dot, index) => {
+                    dot.classList.toggle('active', index === currentIndex);
+                });
+            }
+
+            leftNav.addEventListener('click', (e) => {
+                e.preventDefault();
+                currentIndex = (currentIndex > 0) ? currentIndex - 1 : images.length - 1;
+                updateCarousel();
+            });
+
+            rightNav.addEventListener('click', (e) => {
+                e.preventDefault();
+                currentIndex = (currentIndex < images.length - 1) ? currentIndex + 1 : 0;
+                updateCarousel();
+            });
+
+            dots.forEach((dot, index) => {
+                dot.addEventListener('click', () => {
+                    currentIndex = index;
+                    updateCarousel();
+                });
+            });
+        });
+
+        document.querySelectorAll('.activity-card').forEach(card => {
+            const carousel = card.querySelector('.activity-carousel');
+            const images = card.querySelectorAll('.activity-carousel img');
+            const dots = card.querySelectorAll('.image-dots .dot');
+            const leftNav = card.querySelector('.left-nav');
+            const rightNav = card.querySelector('.right-nav');
+            let currentIndex = 0;
+
+            function updateCarousel() {
+                carousel.style.transform = `translateX(-${currentIndex * 100}%)`;
+                dots.forEach((dot, index) => {
+                    dot.classList.toggle('active', index === currentIndex);
+                });
+            }
+
+            leftNav.addEventListener('click', (e) => {
+                e.preventDefault();
+                currentIndex = (currentIndex > 0) ? currentIndex - 1 : images.length - 1;
+                updateCarousel();
+            });
+
+            rightNav.addEventListener('click', (e) => {
+                e.preventDefault();
+                currentIndex = (currentIndex < images.length - 1) ? currentIndex + 1 : 0;
+                updateCarousel();
+            });
+
+            dots.forEach((dot, index) => {
+                dot.addEventListener('click', () => {
+                    currentIndex = index;
+                    updateCarousel();
+                });
+            });
+        });
+
+        document.querySelectorAll('.favorite-btn').forEach(btn => {
+            btn.addEventListener('click', function(e) {
+                e.stopPropagation();
+                btn.classList.toggle('active');
+                const icon = btn.querySelector('i');
+                if (btn.classList.contains('active')) {
+                    icon.classList.remove('fa-regular');
+                    icon.classList.add('fa-solid');
+                } else {
+                    icon.classList.remove('fa-solid');
+                    icon.classList.add('fa-regular');
+                }
+            });
+        });
+    </script>
+</body>
+</html>

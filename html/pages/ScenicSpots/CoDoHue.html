@@ -1,0 +1,765 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cố đô Huế (Thừa Thiên Huế)</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <a href="../../index.html" class="back-button">
+        <i class="fa-solid fa-arrow-left"></i>
+        Quay lại trang chủ
+    </a>
+    <div class="hero-section">
+        <div class="carousel-container">
+            <div class="carousel" id="carousel">
+                <img src="img/hue1.jpg" alt="Hue 1">
+                <img src="img/hue2.jpg" alt="Hue 2">
+                <img src="img/hue3.jpg" alt="Hue 3">
+                <img src="img/hue4.jpg" alt="Hue 4">
+                <img src="img/hue5.jpg" alt="Hue 5">
+                <img src="img/hue6.jpg" alt="Hue 6">
+            </div>
+            <button class="nav-arrow left-nav" id="leftArrow">❮</button>
+            <button class="nav-arrow right-nav" id="rightArrow">❯</button>
+            <div class="dots" id="dots">
+                <span class="dot active"></span>
+                <span class="dot"></span>
+                <span class="dot"></span>
+                <span class="dot"></span>
+                <span class="dot"></span>
+                <span class="dot"></span>
+            </div>
+        </div>
+    </div>
+    <div class="location-info">
+        <div class="title-container">
+            <h1>Cố đô Huế (Thừa Thiên Huế)</h1>
+            <button class="save-button"><i class="fa-regular fa-bookmark"></i> Lưu</button>
+        </div>
+        <p class="description" id="description">Huế – Trái tim của miền di sản, nơi lưu giữ những dấu ấn vàng son của lịch sử dân tộc Việt Nam. Từng là kinh đô của triều Nguyễn – triều đại phong kiến cuối cùng, Huế mang trong mình vẻ đẹp cổ kính, trang nghiêm và trầm mặc. Những công trình kiến trúc như Kinh thành Huế, Ngọ Môn, điện Thái Hòa, lăng Tự Đức, lăng Minh Mạng… là những minh chứng sống động cho một thời kỳ huy hoàng, được gìn giữ nguyên vẹn giữa lòng đất cố đô. Không chỉ là trung tâm văn hóa – lịch sử, Huế còn là nơi hòa quyện giữa thiên nhiên thơ mộng và hồn dân tộc, để lại trong lòng du khách những xúc cảm sâu lắng khó quên.</p>
+        <a href="#" class="read-more" id="readMore"><span class="read-more-text">Đọc thêm</span> <i class="fa-solid fa-angle-down"></i></a>
+    </div>
+    <div class="travel-advice">
+        <h2>Bật mí những trải nghiệm khi đến Cố đô Huế</h2>
+        <div class="advice-grid">
+            <div class="advice-card">
+                <div class="advice-content">
+                    <h3>Khám Phá Kinh Thành Huế</h3>
+                    <p>Kinh Thành Huế, di sản của triều Nguyễn, với các công trình lịch sử như cung điện, đền đài và cổng Ngọ Môn, mang lại cảm giác về thời kỳ phong kiến huy hoàng.</p>
+                </div>
+            </div>
+            <div class="advice-card">
+                <div class="advice-content">
+                    <h3>Chiêm Ngưỡng Lăng Tự Đức, Lăng Minh Mạng</h3>
+                    <p>Cố đô Huế nổi tiếng với các lăng tẩm, mỗi lăng mang nét đẹp và dấu ấn riêng. Lăng Tự Đức thanh thoát, Lăng Minh Mạng uy nghiêm, giúp du khách khám phá lịch sử và huyền thoại triều Nguyễn.</p>
+                </div>
+            </div>
+            <div class="advice-card">
+                <div class="advice-content">
+                    <h3>Dạo Chơi Trên Sông Hương</h3>
+                    <p>Sông Hương, biểu tượng của Huế, gắn liền với dân ca Huế trữ tình. Du khách có thể đi thuyền ngắm cảnh thơ mộng, đặc biệt là vào hoàng hôn, để thư giãn và hòa mình vào thiên nhiên.</p>
+                </div>
+            </div>
+            <div class="advice-card">
+                <div class="advice-content">
+                    <h3>Thưởng Thức Ẩm Thực Huế</h3>
+                    <p>Huế nổi tiếng với ẩm thực phong phú, đặc sản như bánh bèo, bánh nậm, cơm hến và hủ tiếu Huế, mang hương vị đậm đà, cay nồng và tinh tế.</p>
+                </div>
+            </div>
+            <div class="advice-card">
+                <div class="advice-content">
+                    <h3>Thăm Chùa Thiên Mụ</h3>
+                    <p>Chùa Thiên Mụ, ngôi chùa cổ kính bên bờ sông Hương, gắn liền với truyền thuyết và là điểm hành hương của tín đồ Phật giáo. Khung cảnh thanh tịnh, lãng mạn mang lại cảm giác bình yên.</p>
+                </div>
+            </div>
+            <div class="advice-card">
+                <div class="advice-content">
+                    <h3>Tham Quan Chợ Đông Ba</h3>
+                    <p>Chợ Đông Ba, khu chợ truyền thống lâu đời của Huế, là nơi mua sắm đặc sản như áo dài, đồ thủ công mỹ nghệ và món ăn đặc trưng, giúp du khách khám phá văn hóa và cuộc sống người dân Huế.</p>
+                </div>
+            </div>
+            <div class="advice-card">
+                <div class="advice-content">
+                    <h3>Trải Nghiệm Lễ Hội Huế</h3>
+                    <p>Lễ hội Huế, đặc biệt là Festival Huế, là dịp lý tưởng để khám phá văn hóa, nghệ thuật và các chương trình biểu diễn đặc sắc của thành phố.</p>
+                </div>
+            </div>
+            <div class="advice-card">
+                <div class="advice-content">
+                    <h3>Chèo Thuyền Ra Biển Lăng Cô</h3>
+                    <p>Biển Lăng Cô gần Huế, là một trong những bãi biển đẹp nhất miền Trung, với cát trắng, nước trong xanh và không gian yên tĩnh – lý tưởng cho chuyến thư giãn kết hợp tham quan Cố đô.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="places-to-stay">
+        <div class="section-header">
+            <h2>Nơi nghỉ ngơi lý tưởng tại Cố đô Huế</h2>
+        </div>
+        <div class="hotels-grid">
+            <div class="hotel-card">
+                <div class="hotel-images">
+                    <button class="favorite-btn"><i class="fa-regular fa-heart"></i></button>
+                    <div class="hotel-carousel">
+                        <img src="img/place/hotel11 1.jpg" alt="Hotel view 1">
+                        <img src="img/place/hotel11 2.jpg" alt="Hotel view 2">
+                        <img src="img/place/hotel11 3.jpg" alt="Hotel view 3">
+                        <img src="img/place/hotel11 4.jpg" alt="Hotel view 4">
+                        <img src="img/place/hotel11 5.jpg" alt="Hotel view 5">
+                    </div>
+                    <button class="nav-arrow left-nav">❮</button>
+                    <button class="nav-arrow right-nav">❯</button>
+                    <div class="image-dots">
+                        <span class="dot active"></span>
+                        <span class="dot"></span>
+                        <span class="dot"></span>
+                        <span class="dot"></span>
+                        <span class="dot"></span>
+                    </div>
+                </div>
+                <div class="hotel-info">
+                    <h3>Melia Vinpearl Hue</h3>
+                    <div class="rating">
+                        <span class="score">4.7 </span>
+                        <span class="stars">★★★★☆</span>
+                        <span class="reviews">(1,248)</span>
+                    </div>
+                </div>
+            </div>
+            <div class="hotel-card">
+                <div class="hotel-images">
+                    <button class="favorite-btn"><i class="fa-regular fa-heart"></i></button>
+                    <div class="hotel-carousel">
+                        <img src="img/place/hotel21 1.jpg" alt="Hotel view 1">
+                        <img src="img/place/hotel21 2.jpg" alt="Hotel view 2">
+                        <img src="img/place/hotel21 3.jpg" alt="Hotel view 3">
+                        <img src="img/place/hotel21 4.jpg" alt="Hotel view 4">
+                        <img src="img/place/hotel21 5.jpg" alt="Hotel view 5">
+                    </div>
+                    <button class="nav-arrow left-nav">❮</button>
+                    <button class="nav-arrow right-nav">❯</button>
+                    <div class="image-dots">
+                        <span class="dot active"></span>
+                        <span class="dot"></span>
+                        <span class="dot"></span>
+                        <span class="dot"></span>
+                        <span class="dot"></span>
+                    </div>
+                </div>
+                <div class="hotel-info">
+                    <h3>Silk Path Grand Hue Hotel</h3>
+                    <div class="rating">
+                        <span class="score">4.8</span>
+                        <span class="stars">★★★★☆</span>
+                        <span class="reviews">(950)</span>
+                    </div>
+                </div>
+            </div>
+            <div class="hotel-card">
+                <div class="hotel-images">
+                    <button class="favorite-btn"><i class="fa-regular fa-heart"></i></button>
+                    <div class="hotel-carousel">
+                        <img src="img/place/hotel31 1.jpg" alt="Hotel view 1">
+                        <img src="img/place/hotel31 2.jpg" alt="Hotel view 2">
+                        <img src="img/place/hotel31 3.jpg" alt="Hotel view 3">
+                        <img src="img/place/hotel31 4.jpg" alt="Hotel view 4">
+                        <img src="img/place/hotel31 5.jpg" alt="Hotel view 5">
+                    </div>
+                    <button class="nav-arrow left-nav">❮</button>
+                    <button class="nav-arrow right-nav">❯</button>
+                    <div class="image-dots">
+                        <span class="dot active"></span>
+                        <span class="dot"></span>
+                        <span class="dot"></span>
+                        <span class="dot"></span>
+                        <span class="dot"></span>
+                    </div>
+                </div>
+                <div class="hotel-info">
+                    <h3>Indochine Palace</h3>
+                    <div class="rating">
+                        <span class="score">4.6</span>
+                        <span class="stars">★★★★☆</span>
+                        <span class="reviews">(1.184)</span>
+                    </div>
+                </div>
+            </div>
+            <div class="hotel-card">
+                <div class="hotel-images">
+                    <button class="favorite-btn"><i class="fa-regular fa-heart"></i></button>
+                    <div class="hotel-carousel">
+                        <img src="img/place/hotel41 1.jpg" alt="Hotel view 1">
+                        <img src="img/place/hotel41 2.jpg" alt="Hotel view 2">
+                        <img src="img/place/hotel41 3.jpg" alt="Hotel view 3">
+                        <img src="img/place/hotel41 4.jpg" alt="Hotel view 4">
+                        <img src="img/place/hotel41 5.jpg" alt="Hotel view 5">
+                    </div>
+                    <button class="nav-arrow left-nav">❮</button>
+                    <button class="nav-arrow right-nav">❯</button>
+                    <div class="image-dots">
+                        <span class="dot active"></span>
+                        <span class="dot"></span>
+                        <span class="dot"></span>
+                        <span class="dot"></span>
+                        <span class="dot"></span>
+                    </div>
+                </div>
+                <div class="hotel-info">
+                    <h3>Azerai La Residence, Hue</h3>
+                    <div class="rating">
+                        <span class="score">4.9</span>
+                        <span class="stars">★★★★☆</span>
+                        <span class="reviews">(951)</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="hotel-card">
+                <div class="hotel-images">
+                    <button class="favorite-btn"><i class="fa-regular fa-heart"></i></button>
+                    <div class="hotel-carousel">
+                        <img src="img/place/hotel51 1.jpg" alt="Hotel view 1">
+                        <img src="img/place/hotel51 2.jpg" alt="Hotel view 2">
+                        <img src="img/place/hotel51 3.jpg" alt="Hotel view 3">
+                        <img src="img/place/hotel51 4.jpg" alt="Hotel view 4">
+                        <img src="img/place/hotel51 5.jpg" alt="Hotel view 5">
+                    </div>
+                    <button class="nav-arrow left-nav">❮</button>
+                    <button class="nav-arrow right-nav">❯</button>
+                    <div class="image-dots">
+                        <span class="dot active"></span>
+                        <span class="dot"></span>
+                        <span class="dot"></span>
+                        <span class="dot"></span>
+                        <span class="dot"></span>
+                    </div>
+                </div>
+                <div class="hotel-info">
+                    <h3>Pilgrimage Village Boutique Resort & Spa</h3>
+                    <div class="rating">
+                        <span class="score">4.8</span>
+                        <span class="stars">★★★★☆</span>
+                        <span class="reviews">(1,245)</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="hotel-card">
+                <div class="hotel-images">
+                    <button class="favorite-btn"><i class="fa-regular fa-heart"></i></button>
+                    <div class="hotel-carousel">
+                        <img src="img/place/hotel61 1.jpg" alt="Hotel view 1">
+                        <img src="img/place/hotel61 2.jpg" alt="Hotel view 2">
+                        <img src="img/place/hotel61 3.jpg" alt="Hotel view 3">
+                        <img src="img/place/hotel61 4.jpg" alt="Hotel view 4">
+                        <img src="img/place/hotel61 5.jpg" alt="Hotel view 5">
+                    </div>
+                    <button class="nav-arrow left-nav">❮</button>
+                    <button class="nav-arrow right-nav">❯</button>
+                    <div class="image-dots">
+                        <span class="dot active"></span>
+                        <span class="dot"></span>
+                        <span class="dot"></span>
+                        <span class="dot"></span>
+                        <span class="dot"></span>
+                    </div>
+                </div>
+                <div class="hotel-info">
+                    <h3>Vedana Lagoon Resort & Spa</h3>
+                    <div class="rating">
+                        <span class="score">4.7</span>
+                        <span class="stars">★★★★☆</span>
+                        <span class="reviews">(985)</span>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+    <div class="places-to-stay">
+        <div class="section-header">
+            <h2>Những hoạt động không thể bỏ lỡ tại Cố đô Huế</h2>
+        </div>
+        <div class="activities-grid">
+            <div class="activity-card">
+                <div class="activity-images">
+                    <button class="favorite-btn"><i class="fa-regular fa-heart"></i></button>
+                    <div class="activity-carousel">
+                        <img src="img/activity/act11 1.jpg" alt="Act 1">
+                        <img src="img/activity/act11 2.jpg" alt="Act 2">
+                        <img src="img/activity/act11 3.jpg" alt="Act 3">
+                    </div>
+                    <button class="nav-arrow left-nav">❮</button>
+                    <button class="nav-arrow right-nav">❯</button>
+                    <div class="image-dots">
+                        <span class="dot active"></span>
+                        <span class="dot"></span>
+                        <span class="dot"></span>
+                    </div>
+                </div>
+                <div class="activity-info">
+                    <h3>Tham quan Đại Nội Huế (Hoàng thành)</h3>
+                    <p class="price">➥ Kinh thành Huế lưu giữ giá trị lịch sử triều Nguyễn qua những công trình uy nghi như Ngọ Môn, Điện Thái Hòa và Tử Cấm Thành.</p>
+                </div>
+            </div>
+            <div class="activity-card">
+                <div class="activity-images">
+                    <button class="favorite-btn"><i class="fa-regular fa-heart"></i></button>
+                    <div class="activity-carousel">
+                        <img src="img/activity/act21 1.jpg" alt="Act 1">
+                        <img src="img/activity/act21 2.jpg" alt="Act 2">
+                        <img src="img/activity/act21 3.jpg" alt="Act 3">
+                    </div>
+                    <button class="nav-arrow left-nav">❮</button>
+                    <button class="nav-arrow right-nav">❯</button>
+                    <div class="image-dots">
+                        <span class="dot active"></span>
+                        <span class="dot"></span>
+                        <span class="dot"></span>
+                    </div>
+                </div>
+                <div class="activity-info">
+                    <h3>Khám phá các lăng tẩm vua Nguyễn</h3>
+                    <p class="price">➥ Lăng Tự Đức, Minh Mạng, Khải Định – mỗi lăng một phong cách, vừa mang giá trị nghệ thuật, vừa là chốn dạo mát giữa thiên nhiên.</p>
+                </div>
+                </div>
+            <div class="activity-card">
+                <div class="activity-images">
+                    <button class="favorite-btn"><i class="fa-regular fa-heart"></i></button>
+                    <div class="activity-carousel">
+                        <img src="img/activity/act31 1.jpg" alt="Act 1">
+                        <img src="img/activity/act31 2.jpg" alt="Act 2">
+                        <img src="img/activity/act31 3.jpg" alt="Act 3">
+                    </div>
+                    <button class="nav-arrow left-nav">❮</button>
+                    <button class="nav-arrow right-nav">❯</button>
+                    <div class="image-dots">
+                        <span class="dot active"></span>
+                        <span class="dot"></span>
+                        <span class="dot"></span>
+                    </div>
+                </div>
+                <div class="activity-info">
+                    <h3>Ngắm hoàng hôn trên sông Hương</h3>
+                    <p class="price">➥ Trải nghiệm đi thuyền rồng, lắng nghe ca Huế trên sông – nét văn hóa đặc trưng xứ mộng mơ.</p>
+                </div>
+            </div>
+            <div class="activity-card">
+                <div class="activity-images">
+                    <button class="favorite-btn"><i class="fa-regular fa-heart"></i></button>
+                    <div class="activity-carousel">
+                        <img src="img/activity/act41 1.jpg" alt="Act 1">
+                        <img src="img/activity/act41 2.jpg" alt="Act 2">
+                        <img src="img/activity/act41 3.jpg" alt="Act 3">
+                    </div>
+                    <button class="nav-arrow left-nav">❮</button>
+                    <button class="nav-arrow right-nav">❯</button>
+                    <div class="image-dots">
+                        <span class="dot active"></span>
+                        <span class="dot"></span>
+                        <span class="dot"></span>
+                    </div>
+                </div>
+                <div class="activity-info">
+                    <h3>Tản bộ cầu Tràng Tiền & phố đi bộ Nguyễn Đình Chiểu</h3>
+                    <p class="price">➥ Cầu Tràng Tiền – biểu tượng rực rỡ của Huế khi đêm về, gắn liền với những bước chân dạo phố, hương vị ẩm thực và sắc màu quà lưu niệm.</p>
+                </div>
+            </div>
+            <div class="activity-card">
+                <div class="activity-images">
+                    <button class="favorite-btn"><i class="fa-regular fa-heart"></i></button>
+                    <div class="activity-carousel">
+                        <img src="img/activity/act51 1.jpg" alt="Act 1">
+                        <img src="img/activity/act51 2.jpg" alt="Act 2">
+                        <img src="img/activity/act51 3.jpg" alt="Act 3">
+                    </div>
+                    <button class="nav-arrow left-nav">❮</button>
+                    <button class="nav-arrow right-nav">❯</button>
+                    <div class="image-dots">
+                        <span class="dot active"></span>
+                        <span class="dot"></span>
+                        <span class="dot"></span>
+                    </div>
+                </div>
+                <div class="activity-info">
+                    <h3>Thưởng thức ẩm thực cung đình & món Huế dân dã</h3>
+                    <p class="price">➥ Đừng bỏ lỡ bún bò, bánh bèo – nậm – lọc, cơm hến, chè Huế… và trải nghiệm bữa ăn cung đình trong không gian hoàng gia xưa.</p>
+                </div>
+            </div>
+            <div class="activity-card">
+                <div class="activity-images">
+                    <button class="favorite-btn"><i class="fa-regular fa-heart"></i></button>
+                    <div class="activity-carousel">
+                        <img src="img/activity/act61 1.jpg" alt="Act 1">
+                        <img src="img/activity/act61 2.jpg" alt="Act 2">
+                        <img src="img/activity/act61 3.jpg" alt="Act 3">
+                    </div>
+                    <button class="nav-arrow left-nav">❮</button>
+                    <button class="nav-arrow right-nav">❯</button>
+                    <div class="image-dots">
+                        <span class="dot active"></span>
+                        <span class="dot"></span>
+                        <span class="dot"></span>
+                    </div>
+                </div>
+                <div class="activity-info">
+                    <h3>Tham quan chùa Thiên Mụ</h3>
+                    <p class="price">➥ Biểu tượng tâm linh và lịch sử hơn 400 năm tuổi, nằm bên bờ sông Hương, yên tĩnh và thơ mộng.</p>
+                </div>
+            </div>
+            <div class="activity-card">
+                <div class="activity-images">
+                    <button class="favorite-btn"><i class="fa-regular fa-heart"></i></button>
+                    <div class="activity-carousel">
+                        <img src="img/activity/act71 1.jpg" alt="Act 1">
+                        <img src="img/activity/act71 2.jpg" alt="Act 2">
+                        <img src="img/activity/act71 3.jpg" alt="Act 3">
+                    </div>
+                    <button class="nav-arrow left-nav">❮</button>
+                    <button class="nav-arrow right-nav">❯</button>
+                    <div class="image-dots">
+                        <span class="dot active"></span>
+                        <span class="dot"></span>
+                        <span class="dot"></span>
+                    </div>
+                </div>
+                <div class="activity-info">
+                    <h3>Check-in làng hương Thủy Xuân</h3>
+                    <p class="price">➥ Làng nghề truyền thống đầy màu sắc, rất được yêu thích để chụp ảnh sống ảo và tìm hiểu cách làm hương.</p>
+                </div>
+            </div>
+            <div class="activity-card">
+                <div class="activity-images">
+                    <button class="favorite-btn"><i class="fa-regular fa-heart"></i></button>
+                    <div class="activity-carousel">
+                        <img src="img/activity/act81 1.jpg" alt="Act 1">
+                        <img src="img/activity/act81 2.jpg" alt="Act 2">
+                        <img src="img/activity/act81 3.jpg" alt="Act 3">
+                    </div>
+                    <button class="nav-arrow left-nav">❮</button>
+                    <button class="nav-arrow right-nav">❯</button>
+                    <div class="image-dots">
+                        <span class="dot active"></span>
+                        <span class="dot"></span>
+                        <span class="dot"></span>
+                    </div>
+                </div>
+                <div class="activity-info">
+                    <h3>Trekking núi Ngự Bình hoặc đồi Vọng Cảnh</h3>
+                    <p class="price">➥ Ngắm toàn cảnh Huế từ trên cao, nhất là lúc bình minh hoặc hoàng hôn – rất nên thơ và thư thái.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="places-to-stay">
+        <div class="section-header">
+            <h2>Những món quà nhỏ mang hương vị Cố đô Huế</h2>
+        </div>
+        <div class="activities-grid">
+            <div class="activity-card">
+                <div class="activity-images">
+                    <button class="favorite-btn"><i class="fa-regular fa-heart"></i></button>
+                    <div class="activity-carousel">
+                        <img src="img/souvenirs/sou11 1.jpg" alt="Sou 1">
+                        <img src="img/souvenirs/sou11 2.jpg" alt="Sou 2">
+                        <img src="img/souvenirs/sou11 3.jpg" alt="Sou 3">
+                    </div>
+                    <button class="nav-arrow left-nav">❮</button>
+                    <button class="nav-arrow right-nav">❯</button>
+                    <div class="image-dots">
+                        <span class="dot active"></span>
+                        <span class="dot"></span>
+                        <span class="dot"></span>
+                    </div>
+                </div>
+                <div class="activity-info">
+                    <h3>Mè xửng Huế</h3>
+                    <p class="price">Từ 20.000 – 70.000 VNĐ/gói</p>
+                </div>
+            </div>
+            <div class="activity-card">
+                <div class="activity-images">
+                    <button class="favorite-btn"><i class="fa-regular fa-heart"></i></button>
+                    <div class="activity-carousel">
+                        <img src="img/souvenirs/sou21 1.jpg" alt="Sou 1">
+                        <img src="img/souvenirs/sou21 2.jpg" alt="Sou 2">
+                        <img src="img/souvenirs/sou21 3.jpg" alt="Sou 3">
+                    </div>
+                    <button class="nav-arrow left-nav">❮</button>
+                    <button class="nav-arrow right-nav">❯</button>
+                    <div class="image-dots">
+                        <span class="dot active"></span>
+                        <span class="dot"></span>
+                        <span class="dot"></span>
+                    </div>
+                </div>
+                <div class="activity-info">
+                    <h3>Trà cung đình Huế</h3>
+                    <p class="price">Gói 250g: 35.000 – 50.000 VNĐ</p>
+                </div>
+                </div>
+            <div class="activity-card">
+                <div class="activity-images">
+                    <button class="favorite-btn"><i class="fa-regular fa-heart"></i></button>
+                    <div class="activity-carousel">
+                        <img src="img/souvenirs/sou31 1.jpg" alt="Sou 1">
+                        <img src="img/souvenirs/sou31 2.jpg" alt="Sou 2">
+                        <img src="img/souvenirs/sou31 3.jpg" alt="Sou 3">
+                    </div>
+                    <button class="nav-arrow left-nav">❮</button>
+                    <button class="nav-arrow right-nav">❯</button>
+                    <div class="image-dots">
+                        <span class="dot active"></span>
+                        <span class="dot"></span>
+                        <span class="dot"></span>
+                    </div>
+                </div>
+                <div class="activity-info">
+                    <h3>Bánh Huế (bánh in, bánh đậu xanh, bánh thuẫn...)</h3>
+                    <p class="price">Từ 25.000 – 60.000 VNĐ/hộp</p>
+                </div>
+            </div>
+            <div class="activity-card">
+                <div class="activity-images">
+                    <button class="favorite-btn"><i class="fa-regular fa-heart"></i></button>
+                    <div class="activity-carousel">
+                        <img src="img/souvenirs/sou41 1.jpg" alt="Sou 1">
+                        <img src="img/souvenirs/sou41 2.jpg" alt="Sou 2">
+                        <img src="img/souvenirs/sou41 3.jpg" alt="Sou 3">
+                    </div>
+                    <button class="nav-arrow left-nav">❮</button>
+                    <button class="nav-arrow right-nav">❯</button>
+                    <div class="image-dots">
+                        <span class="dot active"></span>
+                        <span class="dot"></span>
+                        <span class="dot"></span>
+                    </div>
+                </div>
+                <div class="activity-info">
+                    <h3>Nón bài thơ</h3>
+                    <p class="price">Từ 50.000 – 150.000 VNĐ/chiếc</p>
+                </div>
+            </div>
+            <div class="activity-card">
+                <div class="activity-images">
+                    <button class="favorite-btn"><i class="fa-regular fa-heart"></i></button>
+                    <div class="activity-carousel">
+                        <img src="img/souvenirs/sou51 1.jpg" alt="Sou 1">
+                        <img src="img/souvenirs/sou51 2.jpg" alt="Sou 2">
+                        <img src="img/souvenirs/sou51 3.jpg" alt="Sou 3">
+                    </div>
+                    <button class="nav-arrow left-nav">❮</button>
+                    <button class="nav-arrow right-nav">❯</button>
+                    <div class="image-dots">
+                        <span class="dot active"></span>
+                        <span class="dot"></span>
+                        <span class="dot"></span>
+                    </div>
+                </div>
+                <div class="activity-info">
+                    <h3>Hương trầm Thủy Xuân</h3>
+                    <p class="price">Từ 30.000 – 100.000 VNĐ/bó</p>
+                </div>
+            </div>
+            <div class="activity-card">
+                <div class="activity-images">
+                    <button class="favorite-btn"><i class="fa-regular fa-heart"></i></button>
+                    <div class="activity-carousel">
+                        <img src="img/souvenirs/sou61 1.jpg" alt="Sou 1">
+                        <img src="img/souvenirs/sou61 2.jpg" alt="Sou 2">
+                        <img src="img/souvenirs/sou61 3.jpg" alt="Sou 3">
+                    </div>
+                    <button class="nav-arrow left-nav">❮</button>
+                    <button class="nav-arrow right-nav">❯</button>
+                    <div class="image-dots">
+                        <span class="dot active"></span>
+                        <span class="dot"></span>
+                        <span class="dot"></span>
+                    </div>
+                </div>
+                <div class="activity-info">
+                    <h3>Áo dài, khăn lụa Huế</h3>
+                    <p class="price">Khăn lụa: 150.000 – 500.000 VNĐ</p>
+                </div>
+            </div>
+            <div class="activity-card">
+                <div class="activity-images">
+                    <button class="favorite-btn"><i class="fa-regular fa-heart"></i></button>
+                    <div class="activity-carousel">
+                        <img src="img/souvenirs/sou71 1.jpg" alt="Sou 1">
+                        <img src="img/souvenirs/sou71 2.jpg" alt="Sou 2">
+                        <img src="img/souvenirs/sou71 3.jpg" alt="Sou 3">
+                    </div>
+                    <button class="nav-arrow left-nav">❮</button>
+                    <button class="nav-arrow right-nav">❯</button>
+                    <div class="image-dots">
+                        <span class="dot active"></span>
+                        <span class="dot"></span>
+                        <span class="dot"></span>
+                    </div>
+                </div>
+                <div class="activity-info">
+                    <h3>Nem chua Huế</h3>
+                    <p class="price">Giá: 25.000 – 50.000 VNĐ/chục</p>
+                </div>
+            </div>
+            <div class="activity-card">
+                <div class="activity-images">
+                    <button class="favorite-btn"><i class="fa-regular fa-heart"></i></button>
+                    <div class="activity-carousel">
+                        <img src="img/souvenirs/sou81 1.jpg" alt="Sou 1">
+                        <img src="img/souvenirs/sou81 2.jpg" alt="Sou 2">
+                        <img src="img/souvenirs/sou81 3.jpg" alt="Sou 3">
+                    </div>
+                    <button class="nav-arrow left-nav">❮</button>
+                    <button class="nav-arrow right-nav">❯</button>
+                    <div class="image-dots">
+                        <span class="dot active"></span>
+                        <span class="dot"></span>
+                        <span class="dot"></span>
+                    </div>
+                </div>
+                <div class="activity-info">
+                    <h3>Đồ thủ công mỹ nghệ Huế</h3>
+                    <p class="price">Giá: 50.000 – 300.000 VNĐ, tùy sản phẩm</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        const carousel = document.getElementById('carousel');
+        const leftArrow = document.querySelector('.carousel-container .left-nav');
+        const rightArrow = document.querySelector('.carousel-container .right-nav');
+        const dots = document.querySelectorAll('.carousel-container .dot');
+        let currentIndex = 0;
+
+        function updateCarousel() {
+            carousel.style.transform = `translateX(-${currentIndex * 100}%)`;
+            dots.forEach((dot, index) => {
+                dot.classList.toggle('active', index === currentIndex);
+            });
+        }
+
+        leftArrow.addEventListener('click', () => {
+            currentIndex = (currentIndex > 0) ? currentIndex - 1 : dots.length - 1;
+            updateCarousel();
+        });
+
+        rightArrow.addEventListener('click', () => {
+            currentIndex = (currentIndex < dots.length - 1) ? currentIndex + 1 : 0;
+            updateCarousel();
+        });
+
+        dots.forEach((dot, index) => {
+            dot.addEventListener('click', () => {
+                currentIndex = index;
+                updateCarousel();
+            });
+        });
+
+        const readMoreLink = document.getElementById('readMore');
+        const description = document.getElementById('description');
+        const readMoreText = readMoreLink.querySelector('.read-more-text');
+        
+        readMoreLink.addEventListener('click', (e) => {
+            e.preventDefault();
+            description.classList.toggle('expanded');
+            const isExpanded = description.classList.contains('expanded');
+            readMoreText.textContent = isExpanded ? 'Thu gọn' : 'Đọc thêm';
+            readMoreLink.querySelector('i').className = isExpanded ? 'fa-solid fa-angle-up' : 'fa-solid fa-angle-down';
+        });
+
+        document.querySelectorAll('.hotel-card').forEach(card => {
+            const carousel = card.querySelector('.hotel-carousel');
+            const images = card.querySelectorAll('.hotel-carousel img');
+            const dots = card.querySelectorAll('.image-dots .dot');
+            const leftNav = card.querySelector('.left-nav');
+            const rightNav = card.querySelector('.right-nav');
+            let currentIndex = 0;
+
+            function updateCarousel() {
+                carousel.style.transform = `translateX(-${currentIndex * 100}%)`;
+                dots.forEach((dot, index) => {
+                    dot.classList.toggle('active', index === currentIndex);
+                });
+            }
+
+            leftNav.addEventListener('click', (e) => {
+                e.preventDefault();
+                currentIndex = (currentIndex > 0) ? currentIndex - 1 : images.length - 1;
+                updateCarousel();
+            });
+
+            rightNav.addEventListener('click', (e) => {
+                e.preventDefault();
+                currentIndex = (currentIndex < images.length - 1) ? currentIndex + 1 : 0;
+                updateCarousel();
+            });
+
+            dots.forEach((dot, index) => {
+                dot.addEventListener('click', () => {
+                    currentIndex = index;
+                    updateCarousel();
+                });
+            });
+        });
+
+        document.querySelectorAll('.activity-card').forEach(card => {
+            const carousel = card.querySelector('.activity-carousel');
+            const images = card.querySelectorAll('.activity-carousel img');
+            const dots = card.querySelectorAll('.image-dots .dot');
+            const leftNav = card.querySelector('.left-nav');
+            const rightNav = card.querySelector('.right-nav');
+            let currentIndex = 0;
+
+            function updateCarousel() {
+                carousel.style.transform = `translateX(-${currentIndex * 100}%)`;
+                dots.forEach((dot, index) => {
+                    dot.classList.toggle('active', index === currentIndex);
+                });
+            }
+
+            leftNav.addEventListener('click', (e) => {
+                e.preventDefault();
+                currentIndex = (currentIndex > 0) ? currentIndex - 1 : images.length - 1;
+                updateCarousel();
+            });
+
+            rightNav.addEventListener('click', (e) => {
+                e.preventDefault();
+                currentIndex = (currentIndex < images.length - 1) ? currentIndex + 1 : 0;
+                updateCarousel();
+            });
+
+            dots.forEach((dot, index) => {
+                dot.addEventListener('click', () => {
+                    currentIndex = index;
+                    updateCarousel();
+                });
+            });
+        });
+
+        document.querySelectorAll('.favorite-btn').forEach(btn => {
+            btn.addEventListener('click', function(e) {
+                e.stopPropagation();
+                btn.classList.toggle('active');
+                const icon = btn.querySelector('i');
+                if (btn.classList.contains('active')) {
+                    icon.classList.remove('fa-regular');
+                    icon.classList.add('fa-solid');
+                } else {
+                    icon.classList.remove('fa-solid');
+                    icon.classList.add('fa-regular');
+                }
+            });
+        });
+    </script>
+</body>
+</html>

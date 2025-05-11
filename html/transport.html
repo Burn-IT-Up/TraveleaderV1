@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Traveleader</title>
+  <link rel="stylesheet" href="/assets/css/style.css">
+  <link rel="stylesheet" href="/assets/css/transport.css">
+</head>
+<body>
+  <div class="header">
+    <img src="/assets/images/Tripadvisor_lockup_horizontal_secondary_registered.svg" alt="Tripadvisor logo" class="logo">
+    <div class="Search">
+        <span class="icon">🔍</span>
+        <input type="text" placeholder="Search">
+    </div>
+    <div class="header_button">
+        <button class="Discover">Discover</button>
+        <button class="Trips">Trips</button>
+        <button class="Review">Review</button>
+        <button class="icon">🌐</button>
+        <div class="divider"></div>
+        <button class="CAD">CAD</button>
+        <button class="SignIn">Sign In</button>
+    </div>
+  </div>
+  <div class="navbar" style="background-color: rgb(254, 255, 255);">
+      <button class="nav_item">
+          Thành phố/Tỉnh thành
+      </button>
+      <button class="nav_item">
+          Văn hoá
+      </button>
+      <button class="nav_item">
+          Ẩm thực
+      </button>
+      <button class="nav_item" onclick="goToTransport()">
+          Phương Tiện
+      </button>
+      <button class="nav_item">
+          Lưu trú
+      </button>
+      <button class="nav_item">
+          Tour du lịch
+      </button>
+      <button class="nav_item">
+          Lịch trình 
+      </button>
+      <button class="nav_item">
+          Forums
+      </button>
+      
+  </div>
+  <main class="container">
+    <h2>🌴 Chọn phương tiện cho chuyến đi của bạn</h2>
+    <div class="transport-options">
+        <div class="card">
+            <h3>🚗 Ô tô</h3>
+            <div class="option budget" data-price="Giá trung bình: 600.000 - 1.000.000 VNĐ/ngày">Budget<br><small>Xe khách, xe minivan</small></div>
+            <div class="option standard" data-price="Giá trung bình: 1.000.000 - 1.500.000 VNĐ/ngày">Standard<br><small>Thuê xe tự lái, limousine</small></div>
+            <div class="option luxury" data-price="Giá trung bình: 2.000.000 - 3.000.000 VNĐ/ngày">Luxury<br><small>Dịch vụ xe riêng cao cấp</small></div>
+        </div>
+        <div class="card">
+            <h3>✈️ Máy bay</h3>
+            <div class="option budget" data-price="Giá trung bình: 500.000 - 1.000.000 VNĐ/chuyến">Budget<br><small>Hãng giá rẻ (Vietjet, Bamboo Eco)</small></div>
+            <div class="option standard" data-price="Giá trung bình: 1.000.000 - 2.000.000 VNĐ/chuyến">Standard<br><small>Hãng truyền thống (Vietnam Airlines)</small></div>
+            <div class="option luxury" data-price="Giá trung bình: 3.000.000 - 5.000.000 VNĐ/chuyến">Luxury<br><small>Hạng thương gia</small></div>
+        </div>
+        <div class="card">
+            <h3>🚆 Tàu hỏa</h3>
+            <div class="option budget" data-price="Giá trung bình: 300.000 - 500.000 VNĐ/chuyến">Budget<br><small>Ghế mềm, không điều hòa</small></div>
+            <div class="option standard" data-price="Giá trung bình: 500.000 - 800.000 VNĐ/chuyến">Standard<br><small>Giường nằm điều hòa</small></div>
+            <div class="option luxury" data-price="Giá trung bình: 1.000.000 - 2.000.000 VNĐ/chuyến">Luxury<br><small>Khoang riêng cao cấp</small></div>
+        </div>
+    </div>
+    <button class="continue-btn" onclick="goToTransport()">Tiếp tục</button>
+  </main>
+
+  <footer class="footer">
+    <p>Liên hệ:</p>
+    <p>SĐT: 08999872942<br>Email: linhlac1235@gmail.com</p>
+    <p class="thanks">✨ Cảm ơn quý khách đã sử dụng trang web và chúc quý khách một ngày tốt lành ✨</p>
+  </footer>
+
+  <script>
+    function goToTransport() {
+      window.location.href = '/html/transport.html';
+    }
+  </script>
+</body>
+</html>

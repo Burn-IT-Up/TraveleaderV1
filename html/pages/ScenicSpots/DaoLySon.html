@@ -1,0 +1,778 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Đảo Lý Sơn (Quảng Ngãi)</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <a href="../../index.html" class="back-button">
+        <i class="fa-solid fa-arrow-left"></i>
+        Quay lại trang chủ
+    </a>
+    <div class="hero-section">
+        <div class="carousel-container">
+            <div class="carousel" id="carousel">
+                <img src="img/lyson1.jpg" alt="Dao Ly Son 1">
+                <img src="img/lyson2.jpg" alt="Dao Ly Son 2">
+                <img src="img/lyson3.jpg" alt="Dao Ly Son 3">
+                <img src="img/lyson4.jpg" alt="Dao Ly Son 4">
+                <img src="img/lyson5.jpg" alt="Dao Ly Son 5">
+                <img src="img/lyson6.jpg" alt="Dao Ly Son 6">
+            </div>
+            <button class="nav-arrow left-nav" id="leftArrow">❮</button>
+            <button class="nav-arrow right-nav" id="rightArrow">❯</button>
+            <div class="dots" id="dots">
+                <span class="dot active"></span>
+                <span class="dot"></span>
+                <span class="dot"></span>
+                <span class="dot"></span>
+                <span class="dot"></span>
+                <span class="dot"></span>
+            </div>
+        </div>
+    </div>
+
+    <div class="location-info">
+        <div class="title-container">
+            <h1>Đảo Lý Sơn (Quảng Ngãi)</h1>
+            <button class="save-button"><i class="fa-regular fa-bookmark"></i> Lưu</button>
+        </div>
+        <p class="description" id="description">Nằm cách đất liền khoảng 15 hải lý, Đảo Lý Sơn được mệnh danh là "vương quốc tỏi" và là viên ngọc quý giữa biển Đông, nơi vẻ đẹp hoang sơ, bình dị vẫn được gìn giữ nguyên vẹn qua từng con sóng.
+
+            Đặt chân lên Lý Sơn, bạn sẽ lập tức bị mê hoặc bởi làn nước biển xanh ngọc trong vắt, bãi cát trắng mịn trải dài, những ngọn núi lửa cổ kính cùng những cánh đồng tỏi xanh rì trải rộng tầm mắt. Mỗi góc nhỏ ở đây đều như một bức tranh thiên nhiên sống động – vừa hùng vĩ vừa êm đềm.
+            
+            Không chỉ sở hữu vẻ đẹp thiên nhiên kỳ vĩ, Lý Sơn còn mang trong mình dấu ấn lịch sử sâu sắc. Những di tích như chùa Hang, chùa Đục, cột cờ Tổ quốc trên đỉnh Thới Lới, hay Âm linh tự kể lại câu chuyện oai hùng của những người lính Hoàng Sa năm xưa – những con người quả cảm đã ra khơi bảo vệ chủ quyền biển đảo.
+            
+            Đến với Lý Sơn, bạn không chỉ tận hưởng bức tranh thiên nhiên kỳ thú, mà còn có cơ hội khám phá văn hóa địa phương độc đáo, thưởng thức những món đặc sản trứ danh như: gỏi tỏi Lý Sơn, cua Huỳnh Đế, ốc mặt trăng, hay cháo nhum thơm béo khó cưỡng.
+            
+            Một ngày ở Lý Sơn bắt đầu bằng ánh bình minh rực rỡ trên biển, và khép lại trong ánh hoàng hôn tím lịm, mơ màng trên những bãi đá trầm tích bazan hàng triệu năm tuổi – để lại trong lòng mỗi du khách một niềm lưu luyến không nguôi.</p>
+        <a href="#" class="read-more" id="readMore"><span class="read-more-text">Đọc thêm</span> <i class="fa-solid fa-angle-down"></i></a>
+    </div>
+
+    <div class="travel-advice">
+        <h2>Bật mí những trải nghiệm khi đến Đảo Lý Sơn</h2>
+        <div class="advice-grid">
+            <div class="advice-card">
+                <div class="advice-content">
+                    <h3>Ngắm bình minh trên đỉnh núi Thới Lới</h3>
+                    <p>Dậy sớm ngắm mặt trời đỏ rực mọc trên biển trời Lý Sơn – cảnh tượng tuyệt đẹp khó quên.</p>
+                </div>
+            </div>
+            <div class="advice-card">
+                <div class="advice-content">
+                    <h3>Trekking lên đỉnh núi lửa cổ</h3>
+                    <p>Núi Thới Lới với đất đỏ bazan, bãi đá trầm tích và đồng cỏ xanh mướt sẽ khiến bạn choáng ngợp.</p>
+                </div>
+            </div>
+            <div class="advice-card">
+                <div class="advice-content">
+                    <h3>Tham quan chùa Hang kỳ bí</h3>
+                    <p>Chùa Hang ẩn trong lòng núi đá, linh thiêng và thanh tịnh giữa thiên nhiên rộng lớn.</p>
+                </div>
+            </div>
+            <div class="advice-card">
+                <div class="advice-content">
+                    <h3>Check-in cổng Tò Vò – Biểu tượng của Lý Sơn</h3>
+                    <p>Cổng Tò Vò – vòm đá dung nham kỳ diệu, lý tưởng để chụp ảnh hoàng hôn "triệu like".</p>
+                </div>
+            </div>
+            <div class="advice-card">
+                <div class="advice-content">
+                    <h3>Thưởng thức đặc sản tươi ngon</h3>
+                    <p>Đừng quên thưởng thức gỏi tỏi, cháo nhum, ốc mặt trăng và cua Huỳnh Đế thơm ngon tại Lý Sơn.</p>
+                </div>
+            </div>
+            <div class="advice-card">
+                <div class="advice-content">
+                    <h3>Tham gia lễ hội Khao Lề Thế Lính Hoàng Sa</h3>
+                    <p>Đến Lý Sơn mùa lễ hội (tháng 3 âm lịch) để chứng kiến nghi lễ tưởng nhớ đội hùng binh Hoàng Sa.</p>
+                </div>
+            </div>
+            <div class="advice-card">
+                <div class="advice-content">
+                    <h3>Chèo SUP (ván đứng) trên biển xanh</h3>
+                    <p>Một trải nghiệm cực "chill" được nhiều bạn trẻ yêu thích gần đây – vừa thả mình giữa biển trời, vừa cảm nhận sóng vỗ nhè nhẹ.</p>
+                </div>
+            </div>
+            <div class="advice-card">
+                <div class="advice-content">
+                    <h3>Đạp xe vòng quanh đảo</h3>
+                    <p>Đạp xe quanh đảo, cảm nhận gió biển và ngắm đồng hành tỏi xanh mướt như thảm lụa.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="places-to-stay">
+        <div class="section-header">
+            <h2>Nơi nghỉ ngơi lý tưởng tại Đảo Lý Sơn</h2>
+        </div>
+        <div class="hotels-grid">
+            <div class="hotel-card">
+                <div class="hotel-images">
+                    <button class="favorite-btn"><i class="fa-regular fa-heart"></i></button>
+                    <div class="hotel-carousel">
+                        <img src="img/place/hotel16 1.jpg" alt="Hotel view 1">
+                        <img src="img/place/hotel16 2.jpg" alt="Hotel view 2">
+                        <img src="img/place/hotel16 3.jpg" alt="Hotel view 3">
+                        <img src="img/place/hotel16 4.jpg" alt="Hotel view 4">
+                        <img src="img/place/hotel16 5.jpg" alt="Hotel view 5">
+                    </div>
+                    <button class="nav-arrow left-nav">❮</button>
+                    <button class="nav-arrow right-nav">❯</button>
+                    <div class="image-dots">
+                        <span class="dot active"></span>
+                        <span class="dot"></span>
+                        <span class="dot"></span>
+                        <span class="dot"></span>
+                        <span class="dot"></span>
+                    </div>
+                </div>
+                <div class="hotel-info">
+                    <h3>Khách sạn ĐẢO LÝ SƠN- AN DUYÊN</h3>
+                    <div class="rating">
+                        <span class="score">5.0 </span>
+                        <span class="stars">★★★★★</span>
+                        <span class="reviews">(4,248)</span>
+                    </div>
+                </div>
+            </div>
+            <div class="hotel-card">
+                <button class="favorite-btn"><i class="fa-regular fa-heart"></i></button>
+                <div class="hotel-images">
+                    <div class="hotel-carousel">
+                        <img src="img/place/hotel26 1.jpg" alt="Hotel view 1">
+                        <img src="img/place/hotel26 2.jpg" alt="Hotel view 2">
+                        <img src="img/place/hotel26 3.jpg" alt="Hotel view 3">
+                        <img src="img/place/hotel26 4.jpg" alt="Hotel view 4">
+                        <img src="img/place/hotel26 5.jpg" alt="Hotel view 5">
+                    </div>
+                    <button class="nav-arrow left-nav">❮</button>
+                    <button class="nav-arrow right-nav">❯</button>
+                    <div class="image-dots">
+                        <span class="dot active"></span>
+                        <span class="dot"></span>
+                        <span class="dot"></span>
+                        <span class="dot"></span>
+                        <span class="dot"></span>
+                    </div>
+                </div>
+                <div class="hotel-info">
+                    <h3>The Harmonia</h3>
+                    <div class="rating">
+                        <span class="score">4.8</span>
+                        <span class="stars">★★★★☆</span>
+                        <span class="reviews">(1,251)</span>
+                    </div>
+                </div>
+            </div>
+            <div class="hotel-card">
+                <button class="favorite-btn"><i class="fa-regular fa-heart"></i></button>
+                <div class="hotel-images">
+                    <div class="hotel-carousel">
+                        <img src="img/place/hotel36 1.jpg" alt="Hotel view 1">
+                        <img src="img/place/hotel36 2.jpg" alt="Hotel view 2">
+                        <img src="img/place/hotel36 3.jpg" alt="Hotel view 3">
+                        <img src="img/place/hotel36 4.jpg" alt="Hotel view 4">
+                        <img src="img/place/hotel36 5.jpg" alt="Hotel view 5">
+                    </div>
+                    <button class="nav-arrow left-nav">❮</button>
+                    <button class="nav-arrow right-nav">❯</button>
+                    <div class="image-dots">
+                        <span class="dot active"></span>
+                        <span class="dot"></span>
+                        <span class="dot"></span>
+                        <span class="dot"></span>
+                        <span class="dot"></span>
+                    </div>
+                </div>
+                <div class="hotel-info">
+                    <h3>Romo Homestay</h3>
+                    <div class="rating">
+                        <span class="score">4.3</span>
+                        <span class="stars">★★★★☆</span>
+                        <span class="reviews">(825)</span>
+                    </div>
+                </div>
+            </div>
+            <div class="hotel-card">
+                <button class="favorite-btn"><i class="fa-regular fa-heart"></i></button>
+                <div class="hotel-images">
+                    <div class="hotel-carousel">
+                        <img src="img/place/hotel46 1.jpg" alt="Hotel view 1">
+                        <img src="img/place/hotel46 2.jpg" alt="Hotel view 2">
+                        <img src="img/place/hotel46 3.jpg" alt="Hotel view 3">
+                        <img src="img/place/hotel46 4.jpg" alt="Hotel view 4">
+                        <img src="img/place/hotel46 5.jpg" alt="Hotel view 5">
+                    </div>
+                    <button class="nav-arrow left-nav">❮</button>
+                    <button class="nav-arrow right-nav">❯</button>
+                    <div class="image-dots">
+                        <span class="dot active"></span>
+                        <span class="dot"></span>
+                        <span class="dot"></span>
+                        <span class="dot"></span>
+                        <span class="dot"></span>
+                    </div>
+                </div>
+                <div class="hotel-info">
+                    <h3>KHÁCH SẠN ROMO</h3>
+                    <div class="rating">
+                        <span class="score">4.5</span>
+                        <span class="stars">★★★★☆</span>
+                        <span class="reviews">(427)</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="hotel-card">
+                <button class="favorite-btn"><i class="fa-regular fa-heart"></i></button>
+                <div class="hotel-images">
+                    <div class="hotel-carousel">
+                        <img src="img/place/hotel56 1.jpg" alt="Hotel view 1">
+                        <img src="img/place/hotel56 2.jpg" alt="Hotel view 2">
+                        <img src="img/place/hotel56 3.jpg" alt="Hotel view 3">
+                        <img src="img/place/hotel56 4.jpg" alt="Hotel view 4">
+                        <img src="img/place/hotel56 5.jpg" alt="Hotel view 5">
+                    </div>
+                    <button class="nav-arrow left-nav">❮</button>
+                    <button class="nav-arrow right-nav">❯</button>
+                    <div class="image-dots">
+                        <span class="dot active"></span>
+                        <span class="dot"></span>
+                        <span class="dot"></span>
+                        <span class="dot"></span>
+                        <span class="dot"></span>
+                    </div>
+                </div>
+                <div class="hotel-info">
+                    <h3>Hamya Hotsprings and Resort</h3>
+                    <div class="rating">
+                        <span class="score">4.0</span>
+                        <span class="stars">★★★★☆</span>
+                        <span class="reviews">(1,581)</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="hotel-card">
+                <button class="favorite-btn"><i class="fa-regular fa-heart"></i></button>
+                <div class="hotel-images">
+                    <div class="hotel-carousel">
+                        <img src="img/place/hotel66 1.jpg" alt="Hotel view 1">
+                        <img src="img/place/hotel66 2.jpg" alt="Hotel view 2">
+                        <img src="img/place/hotel66 3.jpg" alt="Hotel view 3">
+                        <img src="img/place/hotel66 4.jpg" alt="Hotel view 4">
+                        <img src="img/place/hotel66 5.jpg" alt="Hotel view 5">
+                    </div>
+                    <button class="nav-arrow left-nav">❮</button>
+                    <button class="nav-arrow right-nav">❯</button>
+                    <div class="image-dots">
+                        <span class="dot active"></span>
+                        <span class="dot"></span>
+                        <span class="dot"></span>
+                        <span class="dot"></span>
+                        <span class="dot"></span>
+                    </div>
+                </div>
+                <div class="hotel-info">
+                    <h3>Lá Hotel</h3>
+                    <div class="rating">
+                        <span class="score">4.4</span>
+                        <span class="stars">★★★★☆</span>
+                        <span class="reviews">(1,569)</span>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+
+    <div class="places-to-stay">
+        <div class="section-header">
+            <h2>Những hoạt động không thể bỏ lỡ tại Đảo Lý Sơn</h2>
+        </div>
+        <div class="activities-grid">
+            <div class="activity-card">
+                <div class="activity-images">
+                    <button class="favorite-btn"><i class="fa-regular fa-heart"></i></button>
+                    <div class="activity-carousel">
+                        <img src="img/activity/act16 1.jpg" alt="Act 1">
+                        <img src="img/activity/act16 2.jpg" alt="Act 2">
+                        <img src="img/activity/act16 3.jpg" alt="Act 3">
+                    </div>
+                    <button class="nav-arrow left-nav">❮</button>
+                    <button class="nav-arrow right-nav">❯</button>
+                    <div class="image-dots">
+                        <span class="dot active"></span>
+                        <span class="dot"></span>
+                        <span class="dot"></span>
+                    </div>
+                </div>
+                <div class="activity-info">
+                    <h3>Chinh phục núi Thới Lới</h3>
+                    <p class="price">➥ Ngọn núi lửa đã tắt cao nhất đảo với cảnh quan hùng vĩ, có cột cờ Tổ quốc, hồ nước ngọt và tầm nhìn bao quát toàn đảo cùng biển xanh.</p>
+                </div>
+            </div>
+            <div class="activity-card">
+                <div class="activity-images">
+                    <button class="favorite-btn"><i class="fa-regular fa-heart"></i></button>
+                    <div class="activity-carousel">
+                        <img src="img/activity/act26 1.jpg" alt="Act 1">
+                        <img src="img/activity/act26 2.jpg" alt="Act 2">
+                        <img src="img/activity/act26 3.jpg" alt="Act 3">
+                    </div>
+                    <button class="nav-arrow left-nav">❮</button>
+                    <button class="nav-arrow right-nav">❯</button>
+                    <div class="image-dots">
+                        <span class="dot active"></span>
+                        <span class="dot"></span>
+                        <span class="dot"></span>
+                    </div>
+                </div>
+                <div class="activity-info">
+                    <h3>Tắm biển và ngắm san hô ở Hang Câu</h3>
+                    <p class="price">➥ Nơi đây có bãi biển trong xanh, vách đá vôi độc đáo và là điểm lý tưởng để tắm biển, lặn ngắm san hô, chụp ảnh "sống ảo".</p>
+                </div>
+                </div>
+            <div class="activity-card">
+                <div class="activity-images">
+                    <button class="favorite-btn"><i class="fa-regular fa-heart"></i></button>
+                    <div class="activity-carousel">
+                        <img src="img/activity/act36 1.jpg" alt="Act 1">
+                        <img src="img/activity/act36 2.jpg" alt="Act 2">
+                        <img src="img/activity/act36 3.jpg" alt="Act 3">
+                    </div>
+                    <button class="nav-arrow left-nav">❮</button>
+                    <button class="nav-arrow right-nav">❯</button>
+                    <div class="image-dots">
+                        <span class="dot active"></span>
+                        <span class="dot"></span>
+                        <span class="dot"></span>
+                    </div>
+                </div>
+                <div class="activity-info">
+                    <h3>Khám phá Đảo Bé (An Bình)</h3>
+                    <p class="price">➥ Chỉ mất khoảng 15 phút đi tàu cao tốc, bạn sẽ đến hòn đảo hoang sơ với làn nước trong vắt như ngọc, lý tưởng để lặn ngắm san hô, chèo SUP hoặc nghỉ dưỡng yên tĩnh.</p>
+                </div>
+            </div>
+            <div class="activity-card">
+                <div class="activity-images">
+                    <button class="favorite-btn"><i class="fa-regular fa-heart"></i></button>
+                    <div class="activity-carousel">
+                        <img src="img/activity/act46 1.jpg" alt="Act 1">
+                        <img src="img/activity/act46 2.jpg" alt="Act 2">
+                        <img src="img/activity/act46 3.jpg" alt="Act 3">
+                    </div>
+                    <button class="nav-arrow left-nav">❮</button>
+                    <button class="nav-arrow right-nav">❯</button>
+                    <div class="image-dots">
+                        <span class="dot active"></span>
+                        <span class="dot"></span>
+                        <span class="dot"></span>
+                    </div>
+                </div>
+                <div class="activity-info">
+                    <h3>Tham quan chùa Hang</h3>
+                    <p class="price">➥ Ngôi chùa độc đáo nằm trong hang đá núi lửa, vừa là điểm tâm linh linh thiêng vừa có cảnh quan đẹp, thích hợp để chiêm bái và thư giãn.</p>
+                </div>
+            </div>
+            <div class="activity-card">
+                <div class="activity-images">
+                    <button class="favorite-btn"><i class="fa-regular fa-heart"></i></button>
+                    <div class="activity-carousel">
+                        <img src="img/activity/act56 1.jpg" alt="Act 1">
+                        <img src="img/activity/act56 2.jpg" alt="Act 2">
+                        <img src="img/activity/act56 3.jpg" alt="Act 3">
+                    </div>
+                    <button class="nav-arrow left-nav">❮</button>
+                    <button class="nav-arrow right-nav">❯</button>
+                    <div class="image-dots">
+                        <span class="dot active"></span>
+                        <span class="dot"></span>
+                        <span class="dot"></span>
+                    </div>
+                </div>
+                <div class="activity-info">
+                    <h3>Thưởng thức hải sản và đặc sản Lý Sơn</h3>
+                    <p class="price">➥ Nhất định phải thử các món đặc sản như gỏi tỏi Lý Sơn, ốc tượng, cua huỳnh đế, cá tà ma nướng, mực lá nướng... với hải sản tươi sống, giá hợp lý và nhiều quán ăn ven biển cực chill.</p>
+                </div>
+            </div>
+            <div class="activity-card">
+                <div class="activity-images">
+                    <button class="favorite-btn"><i class="fa-regular fa-heart"></i></button>
+                    <div class="activity-carousel">
+                        <img src="img/activity/act66 1.jpg" alt="Act 1">
+                        <img src="img/activity/act66 2.jpg" alt="Act 2">
+                        <img src="img/activity/act66 3.jpg" alt="Act 3">
+                    </div>
+                    <button class="nav-arrow left-nav">❮</button>
+                    <button class="nav-arrow right-nav">❯</button>
+                    <div class="image-dots">
+                        <span class="dot active"></span>
+                        <span class="dot"></span>
+                        <span class="dot"></span>
+                    </div>
+                </div>
+                <div class="activity-info">
+                    <h3>Ngắm bình minh và hoàng hôn</h3>
+                    <p class="price">➥Cổng Tò Vò – vòm đá tự nhiên biểu tượng của Lý Sơn – là điểm ngắm cảnh đẹp nhất, lý tưởng để chụp những bức ảnh "đắt giá" vào sáng sớm hoặc chiều tà.</p>
+                </div>
+            </div>
+            <div class="activity-card">
+                <div class="activity-images">
+                    <button class="favorite-btn"><i class="fa-regular fa-heart"></i></button>
+                    <div class="activity-carousel">
+                        <img src="img/activity/act76 1.jpg" alt="Act 1">
+                        <img src="img/activity/act76 2.jpg" alt="Act 2">
+                        <img src="img/activity/act76 3.jpg" alt="Act 3">
+                    </div>
+                    <button class="nav-arrow left-nav">❮</button>
+                    <button class="nav-arrow right-nav">❯</button>
+                    <div class="image-dots">
+                        <span class="dot active"></span>
+                        <span class="dot"></span>
+                        <span class="dot"></span>
+                    </div>
+                </div>
+                <div class="activity-info">
+                    <h3>Tìm hiểu văn hóa – lịch sử Lý Sơn</h3>
+                    <p class="price">➥ Ghé Nhà trưng bày Đội Hoàng Sa kiêm quản Bắc Hải để tìm hiểu về những người lính can trường bảo vệ chủ quyền biển đảo, đồng thời tham quan các đình làng, miếu thờ mang đậm nét văn hóa Sa Huỳnh – Chăm Pa.</p>
+                </div>
+            </div>
+            <div class="activity-card">
+                <div class="activity-images">
+                    <button class="favorite-btn"><i class="fa-regular fa-heart"></i></button>
+                    <div class="activity-carousel">
+                        <img src="img/activity/act86 1.jpg" alt="Act 1">
+                        <img src="img/activity/act86 2.jpg" alt="Act 2">
+                        <img src="img/activity/act86 3.jpg" alt="Act 3">
+                    </div>
+                    <button class="nav-arrow left-nav">❮</button>
+                    <button class="nav-arrow right-nav">❯</button>
+                    <div class="image-dots">
+                        <span class="dot active"></span>
+                        <span class="dot"></span>
+                        <span class="dot"></span>
+                    </div>
+                </div>
+                <div class="activity-info">
+                    <h3>Tham gia thu hoạch tỏi Lý Sơn</h3>
+                    <p class="price">➥ Tỏi Lý Sơn là đặc sản nổi tiếng, và nếu đến đúng mùa thu hoạch (tháng 5-6), bạn có thể tham gia vào hoạt động thu hoạch tỏi cùng người dân địa phương, tìm hiểu nghề trồng tỏi truyền thống và thưởng thức những củ tỏi tươi ngon.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="places-to-stay">
+        <div class="section-header">
+            <h2>Những món quà nhỏ mang hương vị Đảo Lý Sơn</h2>
+        </div>
+        <div class="activities-grid">
+            <div class="activity-card">
+                <div class="activity-images">
+                    <button class="favorite-btn"><i class="fa-regular fa-heart"></i></button>
+                    <div class="activity-carousel">
+                        <img src="img/souvenirs/sou16 1.jpg" alt="Sou 1">
+                        <img src="img/souvenirs/sou16 2.jpg" alt="Sou 2">
+                        <img src="img/souvenirs/sou16 3.jpg" alt="Sou 3">
+                    </div>
+                    <button class="nav-arrow left-nav">❮</button>
+                    <button class="nav-arrow right-nav">❯</button>
+                    <div class="image-dots">
+                        <span class="dot active"></span>
+                        <span class="dot"></span>
+                        <span class="dot"></span>
+                    </div>
+                </div>
+                <div class="activity-info">
+                    <h3>Tỏi Lý Sơn</h3>
+                    <p class="price">~50.000 – 70.000 VND/kg</p>
+                </div>
+            </div>
+            <div class="activity-card">
+                <div class="activity-images">
+                    <button class="favorite-btn"><i class="fa-regular fa-heart"></i></button>
+                    <div class="activity-carousel">
+                        <img src="img/souvenirs/sou26 1.jpg" alt="Sou 1">
+                        <img src="img/souvenirs/sou26 2.jpg" alt="Sou 2">
+                        <img src="img/souvenirs/sou26 3.jpg" alt="Sou 3">
+                    </div>
+                    <button class="nav-arrow left-nav">❮</button>
+                    <button class="nav-arrow right-nav">❯</button>
+                    <div class="image-dots">
+                        <span class="dot active"></span>
+                        <span class="dot"></span>
+                        <span class="dot"></span>
+                    </div>
+                </div>
+                <div class="activity-info">
+                    <h3>Mật ong Lý Sơn</h3>
+                    <p class="price">~150.000 – 200.000 VND/lít</p>
+                </div>
+                </div>
+            <div class="activity-card">
+                <div class="activity-images">
+                    <button class="favorite-btn"><i class="fa-regular fa-heart"></i></button>
+                    <div class="activity-carousel">
+                        <img src="img/souvenirs/sou36 1.jpg" alt="Sou 1">
+                        <img src="img/souvenirs/sou36 2.jpg" alt="Sou 2">
+                        <img src="img/souvenirs/sou36 3.jpg" alt="Sou 3">
+                    </div>
+                    <button class="nav-arrow left-nav">❮</button>
+                    <button class="nav-arrow right-nav">❯</button>
+                    <div class="image-dots">
+                        <span class="dot active"></span>
+                        <span class="dot"></span>
+                        <span class="dot"></span>
+                    </div>
+                </div>
+                <div class="activity-info">
+                    <h3>Mực khô Lý Sơn</h3>
+                    <p class="price">~250.000 – 350.000 VND/kg</p>
+                </div>
+            </div>
+            <div class="activity-card">
+                <div class="activity-images">
+                    <button class="favorite-btn"><i class="fa-regular fa-heart"></i></button>
+                    <div class="activity-carousel">
+                        <img src="img/souvenirs/sou46 1.jpg" alt="Sou 1">
+                        <img src="img/souvenirs/sou46 2.jpg" alt="Sou 2">
+                        <img src="img/souvenirs/sou46 3.jpg" alt="Sou 3">
+                    </div>
+                    <button class="nav-arrow left-nav">❮</button>
+                    <button class="nav-arrow right-nav">❯</button>
+                    <div class="image-dots">
+                        <span class="dot active"></span>
+                        <span class="dot"></span>
+                        <span class="dot"></span>
+                    </div>
+                </div>
+                <div class="activity-info">
+                    <h3>Chế phẩm từ tỏi Lý Sơn</h3>
+                    <p class="price">~30.000 – 60.000 VND</p>
+                </div>
+            </div>
+            <div class="activity-card">
+                <div class="activity-images">
+                    <button class="favorite-btn"><i class="fa-regular fa-heart"></i></button>
+                    <div class="activity-carousel">
+                        <img src="img/souvenirs/sou56 1.jpg" alt="Sou 1">
+                        <img src="img/souvenirs/sou56 2.jpg" alt="Sou 2">
+                        <img src="img/souvenirs/sou56 3.jpg" alt="Sou 3">
+                    </div>
+                    <button class="nav-arrow left-nav">❮</button>
+                    <button class="nav-arrow right-nav">❯</button>
+                    <div class="image-dots">
+                        <span class="dot active"></span>
+                        <span class="dot"></span>
+                        <span class="dot"></span>
+                    </div>
+                </div>
+                <div class="activity-info">
+                    <h3>Muối biển Lý Sơn</h3>
+                    <p class="price">~30.000 - 70.000đ</p>
+                </div>
+            </div>
+            <div class="activity-card">
+                <div class="activity-images">
+                    <button class="favorite-btn"><i class="fa-regular fa-heart"></i></button>
+                    <div class="activity-carousel">
+                        <img src="img/souvenirs/sou66 1.jpg" alt="Sou 1">
+                        <img src="img/souvenirs/sou66 2.jpg" alt="Sou 2">
+                        <img src="img/souvenirs/sou66 3.jpg" alt="Sou 3">
+                    </div>
+                    <button class="nav-arrow left-nav">❮</button>
+                    <button class="nav-arrow right-nav">❯</button>
+                    <div class="image-dots">
+                        <span class="dot active"></span>
+                        <span class="dot"></span>
+                        <span class="dot"></span>
+                    </div>
+                </div>
+                <div class="activity-info">
+                    <h3>Bánh ít lá gai</h3>
+                    <p class="price">~15.000 – 25.000 VND/chiếc</p>
+                </div>
+            </div>
+            <div class="activity-card">
+                <div class="activity-images">
+                    <button class="favorite-btn"><i class="fa-regular fa-heart"></i></button>
+                    <div class="activity-carousel">
+                        <img src="img/souvenirs/sou73 1.jpg" alt="Sou 1">
+                        <img src="img/souvenirs/sou73 2.jpg" alt="Sou 2">
+                        <img src="img/souvenirs/sou73 3.jpg" alt="Sou 3">
+                    </div>
+                    <button class="nav-arrow left-nav">❮</button>
+                    <button class="nav-arrow right-nav">❯</button>
+                    <div class="image-dots">
+                        <span class="dot active"></span>
+                        <span class="dot"></span>
+                        <span class="dot"></span>
+                    </div>
+                </div>
+                <div class="activity-info">
+                    <h3>Ớt khô hoặc sa tế tỏi ớt</h3>
+                    <p class="price">~25.000 - 40.000đ/hũ nhỏ 100gl</p>
+                </div>
+            </div>
+            <div class="activity-card">
+                <div class="activity-images">
+                    <button class="favorite-btn"><i class="fa-regular fa-heart"></i></button>
+                    <div class="activity-carousel">
+                        <img src="img/souvenirs/sou86 1.jpg" alt="Sou 1">
+                        <img src="img/souvenirs/sou86 2.jpg" alt="Sou 2">
+                        <img src="img/souvenirs/sou86 3.jpg" alt="Sou 3">
+                    </div>
+                    <button class="nav-arrow left-nav">❮</button>
+                    <button class="nav-arrow right-nav">❯</button>
+                    <div class="image-dots">
+                        <span class="dot active"></span>
+                        <span class="dot"></span>
+                        <span class="dot"></span>
+                    </div>
+                </div>
+                <div class="activity-info">
+                    <h3>Bánh chưng tỏi</h3>
+                    <p class="price">~50.000 – 70.000 VND/cái</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        const carousel = document.getElementById('carousel');
+        const leftArrow = document.querySelector('.carousel-container .left-nav');
+        const rightArrow = document.querySelector('.carousel-container .right-nav');
+        const dots = document.querySelectorAll('.carousel-container .dot');
+        let currentIndex = 0;
+
+        function updateCarousel() {
+            carousel.style.transform = `translateX(-${currentIndex * 100}%)`;
+            dots.forEach((dot, index) => {
+                dot.classList.toggle('active', index === currentIndex);
+            });
+        }
+
+        leftArrow.addEventListener('click', () => {
+            currentIndex = (currentIndex > 0) ? currentIndex - 1 : dots.length - 1;
+            updateCarousel();
+        });
+
+        rightArrow.addEventListener('click', () => {
+            currentIndex = (currentIndex < dots.length - 1) ? currentIndex + 1 : 0;
+            updateCarousel();
+        });
+
+        dots.forEach((dot, index) => {
+            dot.addEventListener('click', () => {
+                currentIndex = index;
+                updateCarousel();
+            });
+        });
+
+        const readMoreLink = document.getElementById('readMore');
+        const description = document.getElementById('description');
+        const readMoreText = readMoreLink.querySelector('.read-more-text');
+        
+        readMoreLink.addEventListener('click', (e) => {
+            e.preventDefault();
+            description.classList.toggle('expanded');
+            const isExpanded = description.classList.contains('expanded');
+            readMoreText.textContent = isExpanded ? 'Thu gọn' : 'Đọc thêm';
+            readMoreLink.querySelector('i').className = isExpanded ? 'fa-solid fa-angle-up' : 'fa-solid fa-angle-down';
+        });
+
+        document.querySelectorAll('.hotel-card').forEach(card => {
+            const carousel = card.querySelector('.hotel-carousel');
+            const images = card.querySelectorAll('.hotel-carousel img');
+            const dots = card.querySelectorAll('.image-dots .dot');
+            const leftNav = card.querySelector('.left-nav');
+            const rightNav = card.querySelector('.right-nav');
+            let currentIndex = 0;
+
+            function updateCarousel() {
+                carousel.style.transform = `translateX(-${currentIndex * 100}%)`;
+                dots.forEach((dot, index) => {
+                    dot.classList.toggle('active', index === currentIndex);
+                });
+            }
+
+            leftNav.addEventListener('click', (e) => {
+                e.preventDefault();
+                currentIndex = (currentIndex > 0) ? currentIndex - 1 : images.length - 1;
+                updateCarousel();
+            });
+
+            rightNav.addEventListener('click', (e) => {
+                e.preventDefault();
+                currentIndex = (currentIndex < images.length - 1) ? currentIndex + 1 : 0;
+                updateCarousel();
+            });
+
+            dots.forEach((dot, index) => {
+                dot.addEventListener('click', () => {
+                    currentIndex = index;
+                    updateCarousel();
+                });
+            });
+        });
+
+        document.querySelectorAll('.activity-card').forEach(card => {
+            const carousel = card.querySelector('.activity-carousel');
+            const images = card.querySelectorAll('.activity-carousel img');
+            const dots = card.querySelectorAll('.image-dots .dot');
+            const leftNav = card.querySelector('.left-nav');
+            const rightNav = card.querySelector('.right-nav');
+            let currentIndex = 0;
+
+            function updateCarousel() {
+                carousel.style.transform = `translateX(-${currentIndex * 100}%)`;
+                dots.forEach((dot, index) => {
+                    dot.classList.toggle('active', index === currentIndex);
+                });
+            }
+
+            leftNav.addEventListener('click', (e) => {
+                e.preventDefault();
+                currentIndex = (currentIndex > 0) ? currentIndex - 1 : images.length - 1;
+                updateCarousel();
+            });
+
+            rightNav.addEventListener('click', (e) => {
+                e.preventDefault();
+                currentIndex = (currentIndex < images.length - 1) ? currentIndex + 1 : 0;
+                updateCarousel();
+            });
+
+            dots.forEach((dot, index) => {
+                dot.addEventListener('click', () => {
+                    currentIndex = index;
+                    updateCarousel();
+                });
+            });
+        });
+
+        document.querySelectorAll('.favorite-btn').forEach(btn => {
+            btn.addEventListener('click', function(e) {
+                e.stopPropagation();
+                btn.classList.toggle('active');
+                const icon = btn.querySelector('i');
+                if (btn.classList.contains('active')) {
+                    icon.classList.remove('fa-regular');
+                    icon.classList.add('fa-solid');
+                } else {
+                    icon.classList.remove('fa-solid');
+                    icon.classList.add('fa-regular');
+                }
+            });
+        });
+    </script>
+</body>
+</html>

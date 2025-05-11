@@ -1,0 +1,469 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;700&display=swap" rel="stylesheet"> -->
+    <title>Traveleader</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>    
+    <link rel="stylesheet" href="/assets/css/style.css">
+    <script src="/assets/js/script.js"></script>
+</head>
+<body>
+    <div class="login-register-bar">
+      <button class="login-btn">ĐĂNG NHẬP</button>
+      <span class="divider"></span>
+      <button class="register-btn">ĐĂNG KÝ</button>
+    </div>
+    <div class="nav-header">
+        <nav class="nav-menu">
+            <ul>
+                <img src="/assets/images/logo2.png" alt="Logo" class="nav-logo2" />
+                <li><a href="#">Trang chủ</a></li>
+                <li><a href="#">Khám phá</a></li>
+                <li><a href="#">Đặt tour</a></li>
+                <li><a href="#">Nhận tour</a></li>
+                <li><a href="#">Lịch trình tham khảo</a></li>
+            </ul>
+        </nav>
+    </div>
+    <div class="trip-spotlight" style="display: flex; justify-content: center; align-items: center; width: 100%; height: 100vh; background: black; overflow: hidden;">
+        <video 
+            id="introVideo"
+            src="/assets/vids/intro.mp4" 
+            width="1980" 
+            height="1010" 
+            style="width: 100%; height: 100%; object-fit: cover; filter: brightness(0.7) contrast(1.1); position: absolute; top: 0; left: 0;" 
+            autoplay 
+            loop 
+            playsinline
+            preload="auto"
+            muted
+        ></video>
+        <div class="video-title">
+            <img src="/assets/images/logo2.png" alt="Traveleader" class="image-title1"">
+            <img src="/assets/images/logo1.png" alt="Traveleader" class="image-title"">
+            <h2>Dẫn lối hành trình của riêng bạn</h2>
+        </div>
+        <div id="muteBtnWrapper" style="position: absolute; bottom: 30px; right: 30px; z-index: 2;">
+          <span class="mute-tooltip">Bật/Tắt âm thanh</span>
+          <span class="mute-wave"></span>
+          <img id="muteBtn" src="/assets/images/muted.png" alt="mute" style="width: 48px; height: 48px; cursor: pointer;" />
+        </div>
+    </div>
+    <div class="product-intro">
+      <div class="product-intro-content">
+        <h2>Giới thiệu sản phẩm</h2>
+        <div class="product-intro-text">
+          <p>Chào mừng bạn đến với <strong>Traveleader</strong> - không chỉ là một trang web về du lịch, mà là nơi khởi nguồn cho những hành trình được tạo nên bởi chính bạn. Trong thời đại mà du lịch ngày càng trở nên đại chúng và rập khuôn, <strong>Traveleader</strong> mang đến một làn gió mới: Tự do khám phá, tự do lựa chọn, và tự do định hình chuyến đi theo cách riêng của bạn.</p>
+
+          <p>Với nền tảng công nghệ thông minh và thân thiện, <strong>Traveleader</strong> cho phép bạn dễ dàng lên kế hoạch tour cá nhân hoá chỉ trong vài bước đơn giản. Dù bạn yêu thích thiên nhiên hoang sơ, đam mê văn hóa bản địa, hay đơn giản là muốn "đi để trở về" với thật nhiều câu chuyện – bạn đều có thể tạo nên hành trình riêng biệt, phù hợp với thời gian, ngân sách và phong cách sống của mình.</p>
+
+          <p><strong>Điểm đặc biệt của Travel Leader chính là cộng đồng hướng dẫn viên địa phương đa dạng, giàu kinh nghiệm và tràn đầy đam mê.</strong> Chúng tôi kết nối bạn với những người dẫn đường thực thụ – những người không chỉ hiểu từng ngõ ngách quê hương họ, mà còn biết cách kể chuyện, chia sẻ và làm cho hành trình của bạn trở nên sống động, đáng nhớ.</p>
+
+          <p>Tại đây, bạn sẽ không còn là khách du lịch đơn thuần, mà là <strong>người thủ lĩnh thực sự của hành trình</strong> – người quyết định nơi đến, người chọn nhịp sống, và người kết nối với những điều thật nhất tại mỗi vùng đất đi qua.</p>
+
+          <p><strong>Traveleader</strong> không chỉ dẫn bạn đến những vùng đất mới – mà còn dẫn bạn về gần hơn với chính mình.</p>
+        </div>
+      </div>
+      <img 
+        src="/assets/images/aboutme.jpg" 
+        alt="About Me" 
+        class="product-intro-image"
+      />
+    </div>
+    <div class="container">
+        <div id="slide">
+            <div class="item" style="background-image: url('/assets/images/slide1.jpg');">
+                <div class="content">
+                    <div class="name">Đà Nẵng</div>
+                    <div class="des">Đà Nẵng là thành phố biển xinh đẹp nằm ở miền Trung Việt Nam, nổi bật với bãi biển Mỹ Khê quyến rũ, cầu Rồng độc đáo, và Bà Nà Hills huyền ảo. Nơi đây hòa quyện giữa thiên nhiên hoang sơ, kiến trúc hiện đại và con người thân thiện, mang đến trải nghiệm vừa thư giãn, vừa sôi động.
+
+                        Đà Nẵng – điểm đến lý tưởng cho mọi du khách!
+                        
+                    </div>
+                </div>
+            </div>
+            <div class="item" style="background-image: url('/assets/images/slide2.jpg');">
+                <div class="content">
+                    <div class="name">HUẾ</div>
+                    <div class="des">Huế – cố đô yên bình bên dòng sông Hương, nổi bật với vẻ đẹp cổ kính, trầm mặc và giàu bản sắc văn hóa. Những công trình như Đại Nội, chùa Thiên Mụ, và lăng tẩm vua Nguyễn là minh chứng sống động cho lịch sử triều Nguyễn.
+
+                        Huế không ồn ào, mà lặng lẽ, sâu lắng – như một bản tình ca xứ mộng mơ.                        
+                    </div>
+                </div>
+            </div>
+            <div class="item" style="background-image: url('/assets/images/slide3.jpg');">
+                <div class="content">
+                    <div class="name">Hội An</div>
+                    <div class="des">Hội An là phố cổ nằm bên sông Hoài, nổi bật với những mái nhà vàng rêu phong, đèn lồng rực rỡ, và không gian yên bình mang đậm dấu ấn thời gian. Được UNESCO công nhận là Di sản Thế giới, nơi đây là điểm đến lý tưởng cho ai yêu thích văn hóa và kiến trúc cổ xưa..
+                </div>
+                </div>
+            </div>
+            <div class="item" style="background-image: url('/assets/images/slide4.jpg');">
+                <div class="content">
+                    <div class="name">Quy Nhơn</div>
+                    <div class="des">Quy Nhơn là thành phố biển yên bình, nổi bật với những bãi biển hoang sơ, nước biển trong xanh, và cảnh quan thiên nhiên tuyệt đẹp. Không ồn ào, đông đúc, Quy Nhơn mang đến một không gian thư giãn lý tưởng, phù hợp cho những ai tìm kiếm sự bình yên và khám phá vẻ đẹp tự nhiên.
+
+                </div>
+                </div>
+            </div>
+            <div class="item" style="background-image: url('/assets/images/slide5.jpg');">
+                <div class="content">
+                    <div class="name">Nha Trang</div>
+                    <div class="des">Nha Trang là thành phố biển nổi tiếng với bãi biển dài tuyệt đẹp, nước biển trong xanh, và khí hậu ấm áp quanh năm. Nơi đây vừa có cảnh đẹp thiên nhiên, vừa có nhiều điểm vui chơi giải trí hiện đại, thu hút đông đảo du khách trong và ngoài nước.
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="buttons">
+            <button id="prev">&lt;</button>
+            <button id="next">&gt;</button>
+        </div>
+    </div>
+
+    <div class="cultural-beauty">
+        <div class="cultural-content">
+            <div class="cultural-header">
+                <h2>Vẻ Đẹp Văn Hoá & Truyền Thống</h2>
+                <p>Khám phá những nét đẹp văn hoá độc đáo của Việt Nam</p>
+            </div>
+            <div class="cultural-grid">
+                <div class="cultural-card">
+                    <div class="card-image">
+                        <img src="/assets/images/culture1.jpg" alt="Lễ hội truyền thống">
+                    </div>
+                    <div class="card-content">
+                        <h3>Trang phục truyền thống</h3>
+                        <p>Trang phục truyền thống như áo dài, áo tứ thân, áo bà ba, khăn rằn thể hiện vẻ đẹp dịu dàng và gắn bó với đời sống văn hóa các vùng miền Việt Nam.</p>
+                    </div>
+                </div>
+                <div class="cultural-card">
+                    <div class="card-image">
+                        <img src="/assets/images/culture2.jpg" alt="Ẩm thực địa phương">
+                    </div>
+                    <div class="card-content">
+                        <h3>Lễ hội dân gian</h3>
+                        <p>Việt Nam có hàng nghìn lễ hội truyền thống như lễ hội chùa Hương, đền Hùng, cồng chiêng Tây Nguyên... phản ánh đời sống tâm linh, tín ngưỡng và tinh thần cộng đồng của người Việt.</p>
+                    </div>
+                </div>
+                <div class="cultural-card">
+                    <div class="card-image">
+                        <img src="/assets/images/culture3.jpg" alt="Nghề thủ công">
+                    </div>
+                    <div class="card-content">
+                        <h3>Âm nhạc và nghệ thuật truyền thống</h3>
+                        <p>Ca trù, chèo, cải lương, quan họ, đờn ca tài tử... là những loại hình nghệ thuật truyền thống vừa thể hiện cảm xúc, vừa truyền tải lịch sử và đạo lý sống đậm bản sắc vùng miền.</p>
+                    </div>
+                </div>
+                <div class="cultural-card">
+                    <div class="card-image">
+                        <img src="/assets/images/culture4.jpg" alt="Di sản văn hóa">
+                    </div>
+                    <div class="card-content">
+                        <h3>Kiến trúc và di tích lịch sử</h3>
+                        <p>Việt Nam có nhiều công trình kiến trúc cổ kính mang giá trị nghệ thuật và là biểu tượng lịch sử, như chùa Một Cột, Văn Miếu, thành nhà Hồ, cố đô Huế...</p>
+                    </div>
+                </div>
+                <div class="cultural-card">
+                    <div class="card-image">
+                        <img src="/assets/images/culture5.jpg" alt="Nghệ thuật dân gian">
+                    </div>
+                    <div class="card-content">
+                        <h3>Ẩm thực truyền thống</h3>
+                        <p>Ẩm thực Việt Nam đa dạng với món đặc trưng từng vùng như phở, mì Quảng, hủ tiếu..., nổi bật bởi sự tinh tế, hài hòa trong hương vị và cách trình bày.</p>
+                    </div>
+                </div>
+                <div class="cultural-card">
+                    <div class="card-image">
+                        <img src="/assets/images/culture6.jpg" alt="Phong tục tập quán">
+                    </div>
+                    <div class="card-content">
+                        <h3>Gia đình & đạo lý truyền thống</h3>
+                        <p>Người Việt đề cao tình cảm gia đình, lòng hiếu thảo, tình làng nghĩa xóm và luôn giữ gìn các giá trị truyền thống như kính trên nhường dưới, uống nước nhớ nguồn.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="central-landmarks">
+        <div class="landmarks-timeline">
+            <div class="timeline-header">
+                <h2>Danh Lam Thắng Cảnh Miền Trung</h2>
+            </div>
+            <div class="timeline-container">
+                <div class="timeline-track">
+                    <div class="timeline-item" data-location="Đà Nẵng">
+                        <div class="timeline-content">
+                            <div class="location-image">
+                                <img src="pages/ScenicSpots/img/bandao1.jpg" alt="Bãi biển Mỹ Khê">
+                                <div class="location-overlay"></div>
+                            </div>
+                            <div class="location-info">
+                                <span class="location-tag">Đà Nẵng</span>
+                                <h3>Bán đảo Sơn Trà</h3>
+                                <p>Viên ngọc xanh của Đà Nẵng, nơi giao hòa giữa rừng nguyên sinh, biển trời và những cung đường tuyệt đẹp.</p>
+                                <a href="pages/ScenicSpots/BanDaoSonTra.html" class="read-more-btn">Khám phá</a>
+                                <div class="location-stats">
+                                    <div class="stat">
+                                        <span class="stat-value">4.8</span>
+                                        <span class="stat-label">Đánh giá</span>
+                                    </div>
+                                    <div class="stat">
+                                        <span class="stat-value">26°C</span>
+                                        <span class="stat-label">Nhiệt độ</span>
+                                    </div>
+                                    <div class="stat">
+                                        <span class="stat-value">4.400 ha</span>
+                                        <span class="stat-label">Diện tích rừng</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="timeline-item" data-location="Quảng Nam">
+                        <div class="timeline-content">
+                            <div class="location-image">
+                                <img src="pages/ScenicSpots/img/bana1.jpg" alt="Bà Nà Hills">
+                                <div class="location-overlay"></div>
+                            </div>
+                            <div class="location-info">
+                                <span class="location-tag">Đà Nẵng</span>
+                                <h3>Bà Nà Hills</h3>
+                                <p>Thiên đường nghỉ dưỡng trên không với khí hậu mát mẻ quanh năm, nổi tiếng với cầu Vàng và hệ thống cáp treo hiện đại.</p>
+                                <a href="pages/ScenicSpots/BaNa.html" class="read-more-btn">Khám phá</a>
+                                <div class="location-stats">
+                                    <div class="stat">
+                                        <span class="stat-value">4.9</span>
+                                        <span class="stat-label">Đánh giá</span>
+                                    </div>
+                                    <div class="stat">
+                                        <span class="stat-value">18°C</span>
+                                        <span class="stat-label">Nhiệt độ</span>
+                                    </div>
+                                    <div class="stat">
+                                        <span class="stat-value">1500m</span>
+                                        <span class="stat-label">Độ cao</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="timeline-item" data-location="Hội An">
+                        <div class="timeline-content">
+                            <div class="location-image">
+                                <img src="pages/ScenicSpots/img/hoian1.jpg" alt="Phố cổ Hội An">
+                                <div class="location-overlay"></div>
+                            </div>
+                            <div class="location-info">
+                                <span class="location-tag">Hội An</span>
+                                <h3>Phố cổ Hội An</h3>
+                                <p>Di sản văn hóa thế giới với kiến trúc độc đáo, đèn lồng rực rỡ và văn hóa ẩm thực phong phú.</p>
+                                <a href="pages/ScenicSpots/HoiAn.html" class="read-more-btn">Khám phá</a>
+                                <div class="location-stats">
+                                    <div class="stat">
+                                        <span class="stat-value">4.8</span>
+                                        <span class="stat-label">Đánh giá</span>
+                                    </div>
+                                    <div class="stat">
+                                        <span class="stat-value">28°C</span>
+                                        <span class="stat-label">Nhiệt độ</span>
+                                    </div>
+                                    <div class="stat">
+                                        <span class="stat-value">400 năm</span>
+                                        <span class="stat-label">Lịch sử phố cổ</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="timeline-item" data-location="Quảng Bình">
+                        <div class="timeline-content">
+                            <div class="location-image">
+                                <img src="pages/ScenicSpots/img/dongphongnha1.jpg" alt="Động Phong Nha">
+                                <div class="location-overlay"></div>
+                            </div>
+                            <div class="location-info">
+                                <span class="location-tag">Quảng Bình</span>
+                                <h3>Động Phong Nha</h3>
+                                <p>Kỳ quan thiên nhiên với hệ thống hang động hùng vĩ nhất thế giới, được UNESCO công nhận là Di sản thiên nhiên thế giới.</p>
+                                <a href="pages/ScenicSpots/DongPhongNha.html" class="read-more-btn">Khám phá</a>
+                                <div class="location-stats">
+                                    <div class="stat">
+                                        <span class="stat-value">4.9</span>
+                                        <span class="stat-label">Đánh giá</span>
+                                    </div>
+                                    <div class="stat">
+                                        <span class="stat-value">25°C</span>
+                                        <span class="stat-label">Nhiệt độ</span>
+                                    </div>
+                                    <div class="stat">
+                                        <span class="stat-value">7.7km</span>
+                                        <span class="stat-label">Chiều dài</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="timeline-item" data-location="Huế">
+                        <div class="timeline-content">
+                            <div class="location-image">
+                                <img src="pages/ScenicSpots/img/hue1.jpg" alt="Phố cổ Hội An">
+                                <div class="location-overlay"></div>
+                            </div>
+                            <div class="location-info">
+                                <span class="location-tag">Huế</span>
+                                <h3>Cố đô Huế</h3>
+                                <p>Kinh đô cổ kính bên sông Hương, lưu giữ hoàng thành, lăng tẩm và di sản văn hóa đặc sắc của triều Nguyễn.</p>
+                                <a href="pages/ScenicSpots/CoDoHue.html" class="read-more-btn">Khám phá</a>
+                                <div class="location-stats">
+                                    <div class="stat">
+                                        <span class="stat-value">4.7</span>
+                                        <span class="stat-label">Đánh giá</span>
+                                    </div>
+                                    <div class="stat">
+                                        <span class="stat-value">27°C</span>
+                                        <span class="stat-label">Nhiệt độ</span>
+                                    </div>
+                                    <div class="stat">
+                                        <span class="stat-value">5</span>
+                                        <span class="stat-label">Di sản văn hóa thế giới</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="timeline-item" data-location="Quãng Ngãi">
+                        <div class="timeline-content">
+                            <div class="location-image">
+                                <img src="pages/ScenicSpots/img/lyson1.jpg" alt="Phố cổ Hội An">
+                                <div class="location-overlay"></div>
+                            </div>
+                            <div class="location-info">
+                                <span class="location-tag">Quãng Ngãi</span>
+                                <h3>Đảo Lý Sơn</h3>
+                                <p>Hòn đảo núi lửa giữa biển khơi, nổi bật với làn nước trong xanh, ruộng tỏi trắng và những vách đá kỳ vĩ.</p>
+                                <a href="pages/ScenicSpots/DaoLySon.html" class="read-more-btn">Khám phá</a>
+                                <div class="location-stats">
+                                    <div class="stat">
+                                        <span class="stat-value">4.6</span>
+                                        <span class="stat-label">Đánh giá</span>
+                                    </div>
+                                    <div class="stat">
+                                        <span class="stat-value">29°C</span>
+                                        <span class="stat-label">Nhiệt độ</span>
+                                    </div>
+                                    <div class="stat">
+                                        <span class="stat-value">1.000+</span>
+                                        <span class="stat-label">Hộ trồng tỏi</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="timeline-item" data-location="Huế">
+                        <div class="timeline-content">
+                            <div class="location-image">
+                                <img src="pages/ScenicSpots/img/deohaivan1.jpg" alt="Phố cổ Hội An">
+                                <div class="location-overlay"></div>
+                            </div>
+                            <div class="location-info">
+                                <span class="location-tag">Huế</span>
+                                <h3>Đèo Hải Vân</h3>
+                                <p>Cung đường ven núi ngoạn mục bậc nhất Việt Nam, uốn lượn giữa trời mây và biển cả, nối liền Đà Nẵng với Huế.</p>
+                                <a href="pages/ScenicSpots/DeoHaiVan.html" class="read-more-btn">Khám phá</a>
+                                <div class="location-stats">
+                                    <div class="stat">
+                                        <span class="stat-value">4.8</span>
+                                        <span class="stat-label">Đánh giá</span>
+                                    </div>
+                                    <div class="stat">
+                                        <span class="stat-value">21 km</span>
+                                        <span class="stat-label">Chiều dài đèo</span>
+                                    </div>
+                                    <div class="stat">
+                                        <span class="stat-value">496 m</span>
+                                        <span class="stat-label">Độ cao so với mực biển</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="timeline-item" data-location="Quảng Nam">
+                        <div class="timeline-content">
+                            <div class="location-image">
+                                <img src="pages/ScenicSpots/img/myson1.jpg" alt="Phố cổ Hội An">
+                                <div class="location-overlay"></div>
+                            </div>
+                            <div class="location-info">
+                                <span class="location-tag">Quảng Nam</span>
+                                <h3>Thánh địa Mỹ Sơn</h3>
+                                <p>Di tích đền tháp cổ của Vương quốc Chăm Pa, ẩn mình giữa núi rừng Quảng Nam và được UNESCO công nhận là Di sản Thế giới.</p>
+                                <a href="pages/ScenicSpots/DeoHaiVan.html" class="read-more-btn">Khám phá</a>
+                                <div class="location-stats">
+                                    <div class="stat">
+                                        <span class="stat-value">4.7</span>
+                                        <span class="stat-label">Đánh giá</span>
+                                    </div>
+                                    <div class="stat">
+                                        <span class="stat-value">1.000 năm</span>
+                                        <span class="stat-label">Lịch sử</span>
+                                    </div>
+                                    <div class="stat">
+                                        <span class="stat-value">496 m</span>
+                                        <span class="stat-label">Độ cao so với mực biển</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="timeline-controls">
+                <button class="control-prev">
+                    <svg viewBox="0 0 24 24">
+                        <path d="M15.41 7.41L14 6l-6 6 6 6 1.41-1.41L10.83 12z"/>
+                    </svg>
+                </button>
+                <div class="timeline-progress">
+                    <div class="progress-bar"></div>
+                </div>
+                <button class="control-next">
+                    <svg viewBox="0 0 24 24">
+                        <path d="M10 6L8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z"/>
+                    </svg>
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <div class="main-section">
+        <div class="left-container">
+          <!-- SVG bản đồ Việt Nam đặt ở đây -->
+          <div id="map"></div> 
+        </div>
+        <div class="right-content">
+          <!-- Các thành tựu, giới thiệu, nội dung khác -->
+          <div class="intro-box">
+            <h3>Thành tựu nổi bật</h3>
+            <p>Việt Nam - đất nước tôi sinh ra và lớn lên...</p>
+            <!-- Thêm các nội dung khác tùy ý -->
+          </div>
+        </div>
+      </div>
+</body>
+</html>

@@ -1,0 +1,773 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"="width=device-width, initial-scale=1.0">
+    <title>Phố cổ Hội An (Quảng Nam)</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>
+<body>
+    <a href="../../index.html" class="back-button">
+        <i class="fa-solid fa-arrow-left"></i>
+        Quay lại trang chủ
+    </a>
+    <div class="hero-section">
+        <div class="carousel-container">
+            <div class="carousel" id="carousel">
+                <img src="img/hoian1.jpg" alt="Hoi An 1">
+                <img src="img/hoian2.jpg" alt="Hoi An 2">
+                <img src="img/hoian3.jpg" alt="Hoi An 3">
+                <img src="img/hoian4.jpg" alt="Hoi An 4">
+                <img src="img/hoian5.jpg" alt="Hoi An 5">
+                <img src="img/hoian6.jpg" alt="Hoi An 6">
+            </div>
+            <button class="nav-arrow left-nav" id="leftArrow">❮</button>
+            <button class="nav-arrow right-nav" id="rightArrow">❯</button>
+            <div class="dots" id="dots">
+                <span class="dot active"></span>
+                <span class="dot"></span>
+                <span class="dot"></span>
+                <span class="dot"></span>
+                <span class="dot"></span>
+                <span class="dot"></span>
+            </div>
+        </div>
+    </div>
+    <div class="location-info">
+        <div class="title-container">
+            <h1>Phố cổ Hội An (Quảng Nam)</h1>
+            <button class="save-button"><i class="fa-regular fa-bookmark"></i> Lưu</button>
+        </div>
+        <p class="description" id="description">Hội An là một viên ngọc quý giữa lòng miền Trung, nơi vẻ đẹp cổ kính hòa quyện với nhịp sống hiện đại. Những con phố nhỏ yên bình, ngập tràn đèn lồng sắc màu, khiến du khách như lạc vào một thế giới khác. Khám phá các di tích lịch sử, thưởng thức món ăn đặc sắc như Cao Lầu và bánh mì Hội An, bạn sẽ cảm nhận được hương vị độc đáo của vùng đất này. Sau những phút giây đắm chìm trong văn hóa và lịch sử, hãy thư giãn bên bờ sông Hoài hoặc tham gia một chuyến đi thuyền, tận hưởng không khí trong lành và cảnh sắc tuyệt vời của phố cổ.</p>
+        <a href="#" class="read-more" id="readMore"><span class="read-more-text">Đọc thêm</span> <i class="fa-solid fa-angle-down"></i></a>
+    </div>
+    <div class="travel-advice">
+        <h2>Bật mí những trải nghiệm khi đến Hội An</h2>
+        <div class="advice-grid">
+            <div class="advice-card">
+
+                <div class="advice-content">
+                    <h3>Thưởng thức đặc sản Hội An</h3>
+                    <p>Đừng bỏ lỡ Cao Lầu, Bánh mì Hội An, Mì Quảng và Hoành Thánh – những món ngon có thể tìm thấy ở quán ven đường hay nhà hàng trong phố cổ.</p>
+                </div>
+            </div>
+            <div class="advice-card">
+
+                <div class="advice-content">
+                    <h3>Đi bộ hoặc thuê xe đạp</h3>
+                    <p>Hội An lý tưởng để đi bộ hoặc đạp xe khám phá những con đường nhỏ yên bình và các ngóc ngách ít được khám phá. Xe đạp có thể thuê dễ dàng quanh phố cổ.</p>
+                </div>
+            </div>
+            <div class="advice-card">
+
+                <div class="advice-content">
+                    <h3>Tham gia lễ hội đèn lồng vào rằm tháng Giêng</h3>
+                    <p>Hội An nổi tiếng với làng gốm Thanh Hà, làng mộc Kim Bồng – nơi bạn có thể khám phá nghề thủ công và mua quà lưu niệm độc đáo.</p>
+                </div>
+            </div>
+            <div class="advice-card">
+
+                <div class="advice-content">
+                    <h3>Thăm các ngôi đền, chùa và di tích lịch sử</h3>
+                    <p>Hội An không chỉ cổ kính mà còn nổi bật với di tích như Chùa Cầu, nhà cổ Tân Ký, nhà thờ tộc – điểm đến lý tưởng để khám phá văn hóa, lịch sử.</p>
+                </div>
+            </div>
+            <div class="advice-card">
+
+                <div class="advice-content">
+                    <h3>Tham quan Phố Cổ vào buổi sáng sớm</h3>
+                    <p>Phố Cổ Hội An đẹp nhất vào buổi sáng sớm, khi chưa có nhiều du khách. Đây là thời điểm lý tưởng để bạn có thể thoải mái dạo quanh các con phố.</p>
+                </div>
+            </div>
+            <div class="advice-card">
+
+                <div class="advice-content">
+                    <h3>Thăm các làng nghề truyền thống</h3>
+                    <p>Hội An nổi tiếng với các làng nghề truyền thống như gốm Thanh Hà, mộc Kim Bồng. Nếu có thời gian, bạn nên ghé thăm để tìm hiểu và mua quà lưu niệm.</p>
+                </div>
+            </div>
+            <div class="advice-card">
+
+                <div class="advice-content">
+                    <h3>Đi thuyền trên sông Hoài</h3>
+                    <p>Một trải nghiệm tuyệt vời khi đến Hội An là đi thuyền trên sông Hoài, đặc biệt là vào buổi tối. Bạn sẽ được tận hưởng không gian lãng mạn, ngắm nhìn những chiếc đèn lồng sáng rực trên bờ sông.</p>
+                </div>
+            </div>
+            <div class="advice-card">
+
+                <div class="advice-content">
+                    <h3>Khám phá chợ Hội An</h3>
+                    <p>Nếu phố cổ là bản hòa ca của lịch sử và văn hóa, thì chợ Hội An là nhịp sống sôi động phản ánh đời thường. Bước vào chợ, bạn sẽ bị cuốn hút bởi tiếng rao, hương ẩm thực và sắc màu thủ công rực rỡ.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="places-to-stay">
+        <div class="section-header">
+            <h2>Nơi nghỉ ngơi lý tưởng tại Hội An</h2>
+            <a href="#" class="see-all">Xem thêm</a>
+        </div>
+        <div class="hotels-grid">
+            <div class="hotel-card">
+                <button class="favorite-btn"><i class="fa-regular fa-heart"></i></button>
+                <div class="hotel-images">
+                    <div class="hotel-carousel">
+                        <img src="img/place/hotel1 1.jpg" alt="Hotel view 1">
+                        <img src="img/place/hotel1 2.jpg" alt="Hotel view 2">
+                        <img src="img/place/hotel1 3.jpg" alt="Hotel view 3">
+                        <img src="img/place/hotel1 4.jpg" alt="Hotel view 4">
+                        <img src="img/place/hotel1 5.jpg" alt="Hotel view 5">
+                    </div>
+                    <button class="nav-arrow left-nav">❮</button>
+                    <button class="nav-arrow right-nav">❯</button>
+                    <div class="image-dots">
+                        <span class="dot active"></span>
+                        <span class="dot"></span>
+                        <span class="dot"></span>
+                        <span class="dot"></span>
+                        <span class="dot"></span>
+                    </div>
+                </div>
+                <div class="hotel-info">
+                    <h3>La Siesta Hội An Resort & Spa</h3>
+                    <div class="rating">
+                        <span class="score">5.0 </span>
+                        <span class="stars">★★★★★</span>
+                        <span class="reviews">(5.491)</span>
+                    </div>
+                </div>
+            </div>
+            <div class="hotel-card">
+                <button class="favorite-btn"><i class="fa-regular fa-heart"></i></button>
+                <div class="hotel-images">
+                    <div class="hotel-carousel">
+                        <img src="img/place/hotel2 1.jpg" alt="Hotel view 1">
+                        <img src="img/place/hotel2 2.jpg" alt="Hotel view 2">
+                        <img src="img/place/hotel2 3.jpg" alt="Hotel view 3">
+                        <img src="img/place/hotel2 4.jpg" alt="Hotel view 4">
+                        <img src="img/place/hotel2 5.jpg" alt="Hotel view 5">
+                    </div>
+                    <button class="nav-arrow left-nav">❮</button>
+                    <button class="nav-arrow right-nav">❯</button>
+                    <div class="image-dots">
+                        <span class="dot active"></span>
+                        <span class="dot"></span>
+                        <span class="dot"></span>
+                        <span class="dot"></span>
+                        <span class="dot"></span>
+                    </div>
+                </div>
+                <div class="hotel-info">
+                    <h3>Hoi An Memories Resort & Spa</h3>
+                    <div class="rating">
+                        <span class="score">5.0</span>
+                        <span class="stars">★★★★★</span>
+                        <span class="reviews">(1,760)</span>
+                    </div>
+                </div>
+            </div>
+            <div class="hotel-card">
+                <button class="favorite-btn"><i class="fa-regular fa-heart"></i></button>
+                <div class="hotel-images">
+                    <div class="hotel-carousel">
+                        <img src="img/place/hotel3 1.jpg" alt="Hotel view 1">
+                        <img src="img/place/hotel3 2.jpg" alt="Hotel view 2">
+                        <img src="img/place/hotel3 3.jpg" alt="Hotel view 3">
+                        <img src="img/place/hotel3 4.jpg" alt="Hotel view 4">
+                        <img src="img/place/hotel3 5.jpeg" alt="Hotel view 5">
+                    </div>
+                    <button class="nav-arrow left-nav">❮</button>
+                    <button class="nav-arrow right-nav">❯</button>
+                    <div class="image-dots">
+                        <span class="dot active"></span>
+                        <span class="dot"></span>
+                        <span class="dot"></span>
+                        <span class="dot"></span>
+                        <span class="dot"></span>
+                    </div>
+                </div>
+                <div class="hotel-info">
+                    <h3>Almanity Hoi An Wellness Resort</h3>
+                    <div class="rating">
+                        <span class="score">4.8</span>
+                        <span class="stars">★★★★☆</span>
+                        <span class="reviews">(1.556)</span>
+                    </div>
+                </div>
+            </div>
+            <div class="hotel-card">
+                <button class="favorite-btn"><i class="fa-regular fa-heart"></i></button>
+                <div class="hotel-images">
+                    <div class="hotel-carousel">
+                        <img src="img/place/hotel4 1.jpg" alt="Hotel view 1">
+                        <img src="img/place/hotel4 2.jpg" alt="Hotel view 2">
+                        <img src="img/place/hotel4 3.jpg" alt="Hotel view 3">
+                        <img src="img/place/hotel4 4.jpg" alt="Hotel view 4">
+                        <img src="img/place/hotel4 5.jpg" alt="Hotel view 5">
+                    </div>
+                    <button class="nav-arrow left-nav">❮</button>
+                    <button class="nav-arrow right-nav">❯</button>
+                    <div class="image-dots">
+                        <span class="dot active"></span>
+                        <span class="dot"></span>
+                        <span class="dot"></span>
+                        <span class="dot"></span>
+                        <span class="dot"></span>
+                    </div>
+                </div>
+                <div class="hotel-info">
+                    <h3>Sol An Bang Beach Resort & Spa</h3>
+                    <div class="rating">
+                        <span class="score">4.8</span>
+                        <span class="stars">★★★★☆</span>
+                        <span class="reviews">(2,230)</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="hotel-card">
+                <button class="favorite-btn"><i class="fa-regular fa-heart"></i></button>
+                <div class="hotel-images">
+                    <div class="hotel-carousel">
+                        <img src="img/place/hotel5 1.jpg" alt="Hotel view 1">
+                        <img src="img/place/hotel5 2.jpg" alt="Hotel view 2">
+                        <img src="img/place/hotel5 3.jpg" alt="Hotel view 3">
+                        <img src="img/place/hotel5 4.jpg" alt="Hotel view 4">
+                        <img src="img/place/hotel5 5.jpg" alt="Hotel view 5">
+                    </div>
+                    <button class="nav-arrow left-nav">❮</button>
+                    <button class="nav-arrow right-nav">❯</button>
+                    <div class="image-dots">
+                        <span class="dot active"></span>
+                        <span class="dot"></span>
+                        <span class="dot"></span>
+                        <span class="dot"></span>
+                        <span class="dot"></span>
+                    </div>
+                </div>
+                <div class="hotel-info">
+                    <h3>Hoiana Hotel & Suites</h3>
+                    <div class="rating">
+                        <span class="score">4.8</span>
+                        <span class="stars">★★★★☆</span>
+                        <span class="reviews">(1,845)</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="hotel-card">
+                <button class="favorite-btn"><i class="fa-regular fa-heart"></i></button>
+                <div class="hotel-images">
+                    <div class="hotel-carousel">
+                        <img src="img/place/hotel6 1.jpg" alt="Hotel view 1">
+                        <img src="img/place/hotel6 2.jpg" alt="Hotel view 2">
+                        <img src="img/place/hotel6 3.jpg" alt="Hotel view 3">
+                        <img src="img/place/hotel6 4.jpg" alt="Hotel view 4">
+                        <img src="img/place/hotel6 5.jpg" alt="Hotel view 5">
+                    </div>
+                    <button class="nav-arrow left-nav">❮</button>
+                    <button class="nav-arrow right-nav">❯</button>
+                    <div class="image-dots">
+                        <span class="dot active"></span>
+                        <span class="dot"></span>
+                        <span class="dot"></span>
+                        <span class="dot"></span>
+                        <span class="dot"></span>
+                    </div>
+                </div>
+                <div class="hotel-info">
+                    <h3>Koi Resort & Spa Hội An</h3>
+                    <div class="rating">
+                        <span class="score">4.6</span>
+                        <span class="stars">★★★★☆</span>
+                        <span class="reviews">(1,568)</span>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+    <div class="places-to-stay">
+        <div class="section-header">
+            <h2>Những hoạt động không thể bỏ lỡ tại Hội An</h2>
+            <a href="#" class="see-all">Xem thêm</a>
+        </div>
+        <div class="activities-grid">
+            <div class="activity-card">
+                <button class="favorite-btn"><i class="fa-regular fa-heart"></i></button>
+                <div class="activity-images">
+                    <div class="activity-carousel">
+                        <img src="img/activity/act1 1.jpg" alt="Act 1">
+                        <img src="img/activity/act1 2.jpg" alt="Act 2">
+                        <img src="img/activity/act1 3.jpg" alt="Act 3">
+                    </div>
+                    <button class="nav-arrow left-nav">❮</button>
+                    <button class="nav-arrow right-nav">❯</button>
+                    <div class="image-dots">
+                        <span class="dot active"></span>
+                        <span class="dot"></span>
+                        <span class="dot"></span>
+                    </div>
+                </div>
+                <div class="activity-info">
+                    <h3>Chèo thuyền thúng ở rừng dừa Bảy Mẫu</h3>
+                    <p class="price">Từ 90.000–150.000 VNĐ/người</p>
+                </div>
+            </div>
+            <div class="activity-card">
+                <button class="favorite-btn"><i class="fa-regular fa-heart"></i></button>
+                <div class="activity-images">
+                    <div class="activity-carousel">
+                        <img src="img/activity/act2 1.jpg" alt="Act 1">
+                        <img src="img/activity/act2 2.jpg" alt="Act 2">
+                        <img src="img/activity/act2 3.jpg" alt="Act 3">
+                    </div>
+                    <button class="nav-arrow left-nav">❮</button>
+                    <button class="nav-arrow right-nav">❯</button>
+                    <div class="image-dots">
+                        <span class="dot active"></span>
+                        <span class="dot"></span>
+                        <span class="dot"></span>
+                    </div>
+                </div>
+                <div class="activity-info">
+                    <h3>Thả đèn hoa đăng trên sông Hoài</h3>
+                    <p class="price">Từ 5.000–10.000 VNĐ/chiếc</p>
+                </div>
+                </div>
+            <div class="activity-card">
+                <button class="favorite-btn"><i class="fa-regular fa-heart"></i></button>
+                <div class="activity-images">
+                    <div class="activity-carousel">
+                        <img src="img/activity/act3 1.jpg" alt="Act 1">
+                        <img src="img/activity/act3 2.jpg" alt="Act 2">
+                        <img src="img/activity/act3 3.jpg" alt="Act 3">
+                    </div>
+                    <button class="nav-arrow left-nav">❮</button>
+                    <button class="nav-arrow right-nav">❯</button>
+                    <div class="image-dots">
+                        <span class="dot active"></span>
+                        <span class="dot"></span>
+                        <span class="dot"></span>
+                    </div>
+                </div>
+                <div class="activity-info">
+                    <h3>Làm đèn lồng thủ công</h3>
+                    <p class="price">Khoảng 200.000–300.000 VNĐ/người</p>
+                </div>
+            </div>
+            <div class="activity-card">
+                <button class="favorite-btn"><i class="fa-regular fa-heart"></i></button>
+                <div class="activity-images">
+                    <div class="activity-carousel">
+                        <img src="img/activity/act4 1.jpg" alt="Act 1">
+                        <img src="img/activity/act4 2.jpg" alt="Act 2">
+                        <img src="img/activity/act4 3.jpg" alt="Act 3">
+                    </div>
+                    <button class="nav-arrow left-nav">❮</button>
+                    <button class="nav-arrow right-nav">❯</button>
+                    <div class="image-dots">
+                        <span class="dot active"></span>
+                        <span class="dot"></span>
+                        <span class="dot"></span>
+                    </div>
+                </div>
+                <div class="activity-info">
+                    <h3>Lớp học nấu ăn món Hội An</h3>
+                    <p class="price">Khoảng 500.000–800.000 VNĐ/người</p>
+                </div>
+            </div>
+            <div class="activity-card">
+                <button class="favorite-btn"><i class="fa-regular fa-heart"></i></button>
+                <div class="activity-images">
+                    <div class="activity-carousel">
+                        <img src="img/activity/act5 1.jpg" alt="Act 1">
+                        <img src="img/activity/act5 2.jpg" alt="Act 2">
+                        <img src="img/activity/act5 3.jpg" alt="Act 3">
+                    </div>
+                    <button class="nav-arrow left-nav">❮</button>
+                    <button class="nav-arrow right-nav">❯</button>
+                    <div class="image-dots">
+                        <span class="dot active"></span>
+                        <span class="dot"></span>
+                        <span class="dot"></span>
+                    </div>
+                </div>
+                <div class="activity-info">
+                    <h3>Đạp xe khám phá làng quê</h3>
+                    <p class="price">Khoảng 50.000–100.000 VNĐ/ngày</p>
+                </div>
+            </div>
+            <div class="activity-card">
+                <button class="favorite-btn"><i class="fa-regular fa-heart"></i></button>
+                <div class="activity-images">
+                    <div class="activity-carousel">
+                        <img src="img/activity/act6 1.jpg" alt="Act 1">
+                        <img src="img/activity/act6 2.jpg" alt="Act 2">
+                        <img src="img/activity/act6 3.jpg" alt="Act 3">
+                    </div>
+                    <button class="nav-arrow left-nav">❮</button>
+                    <button class="nav-arrow right-nav">❯</button>
+                    <div class="image-dots">
+                        <span class="dot active"></span>
+                        <span class="dot"></span>
+                        <span class="dot"></span>
+                    </div>
+                </div>
+                <div class="activity-info">
+                    <h3>Tham quan và làm gốm tại làng gốm Thanh Hà</h3>
+                    <p class="price">Khoảng 35.000 VNĐ/người</p>
+                </div>
+            </div>
+            <div class="activity-card">
+                <button class="favorite-btn"><i class="fa-regular fa-heart"></i></button>
+                <div class="activity-images">
+                    <div class="activity-carousel">
+                        <img src="img/activity/act7 1.jpg" alt="Act 1">
+                        <img src="img/activity/act7 2.jpg" alt="Act 2">
+                        <img src="img/activity/act7 3.jpg" alt="Act 3">
+                    </div>
+                    <button class="nav-arrow left-nav">❮</button>
+                    <button class="nav-arrow right-nav">❯</button>
+                    <div class="image-dots">
+                        <span class="dot active"></span>
+                        <span class="dot"></span>
+                        <span class="dot"></span>
+                    </div>
+                </div>
+                <div class="activity-info">
+                    <h3>Chụp ảnh cổ phục Hội An</h3>
+                    <p class="price">Khoảng 150.000–300.000 VNĐ/bộ</p>
+                </div>
+            </div>
+            <div class="activity-card">
+                <button class="favorite-btn"><i class="fa-regular fa-heart"></i></button>
+                <div class="activity-images">
+                    <div class="activity-carousel">
+                        <img src="img/activity/act8 1.jpg" alt="Act 1">
+                        <img src="img/activity/act8 2.jpg" alt="Act 2">
+                        <img src="img/activity/act8 3.jpg" alt="Act 3">
+                    </div>
+                    <button class="nav-arrow left-nav">❮</button>
+                    <button class="nav-arrow right-nav">❯</button>
+                    <div class="image-dots">
+                        <span class="dot active"></span>
+                        <span class="dot"></span>
+                        <span class="dot"></span>
+                    </div>
+                </div>
+                <div class="activity-info">
+                    <h3>Xem biểu diễn nghệ thuật truyền thống</h3>
+                    <p class="price">Khoảng 100.000–200.000 VNĐ/người</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="places-to-stay">
+        <div class="section-header">
+            <h2>Những món quà nhỏ mang hương vị Hội An</h2>
+            <a href="#" class="see-all">Xem thêm</a>
+        </div>
+        <div class="activities-grid">
+            <div class="activity-card">
+                <button class="favorite-btn"><i class="fa-regular fa-heart"></i></button>
+                <div class="activity-images">
+                    <div class="activity-carousel">
+                        <img src="img/souvenirs/sou1 1.jpg" alt="Sou 1">
+                        <img src="img/souvenirs/sou1 2.jpg" alt="Sou 2">
+                        <img src="img/souvenirs/sou1 3.jpg" alt="Sou 3">
+                    </div>
+                    <button class="nav-arrow left-nav">❮</button>
+                    <button class="nav-arrow right-nav">❯</button>
+                    <div class="image-dots">
+                        <span class="dot active"></span>
+                        <span class="dot"></span>
+                        <span class="dot"></span>
+                    </div>
+                </div>
+                <div class="activity-info">
+                    <h3>Đèn lồng Hội An</h3>
+                    <p class="price">➥ Biểu tượng phố cổ với thiết kế đa dạng, chất liệu phong phú và có thể gấp gọn tiện mang theo.</p>
+                </div>
+            </div>
+            <div class="activity-card">
+                <button class="favorite-btn"><i class="fa-regular fa-heart"></i></button>
+                <div class="activity-images">
+                    <div class="activity-carousel">
+                        <img src="img/souvenirs/sou2 1.jpg" alt="Sou 1">
+                        <img src="img/souvenirs/sou2 2.jpg" alt="Sou 2">
+                        <img src="img/souvenirs/sou2 3.jpg" alt="Sou 3">
+                    </div>
+                    <button class="nav-arrow left-nav">❮</button>
+                    <button class="nav-arrow right-nav">❯</button>
+                    <div class="image-dots">
+                        <span class="dot active"></span>
+                        <span class="dot"></span>
+                        <span class="dot"></span>
+                    </div>
+                </div>
+                <div class="activity-info">
+                    <h3>Áo dài may đo</h3>
+                    <p class="price">➥ Có thể đặt may theo số đo tại chỗ, với nhiều cửa hàng nổi tiếng ở Hội An chuyên may đo nhanh và đẹp trong vài giờ.</p>
+                </div>
+                </div>
+            <div class="activity-card">
+                <button class="favorite-btn"><i class="fa-regular fa-heart"></i></button>
+                <div class="activity-images">
+                    <div class="activity-carousel">
+                        <img src="img/souvenirs/sou3 1.jpg" alt="Sou 1">
+                        <img src="img/souvenirs/sou3 2.jpg" alt="Sou 2">
+                        <img src="img/souvenirs/sou3 3.jpg" alt="Sou 3">
+                    </div>
+                    <button class="nav-arrow left-nav">❮</button>
+                    <button class="nav-arrow right-nav">❯</button>
+                    <div class="image-dots">
+                        <span class="dot active"></span>
+                        <span class="dot"></span>
+                        <span class="dot"></span>
+                    </div>
+                </div>
+                <div class="activity-info">
+                    <h3>Lụa và sản phẩm thủ công từ lụa</h3>
+                    <p class="price">➥ Khăn choàng, túi xách, ví, áo lụa tơ tằm có thể mua tại Làng Lụa Hội An.</p>
+                </div>
+            </div>
+            <div class="activity-card">
+                <button class="favorite-btn"><i class="fa-regular fa-heart"></i></button>
+                <div class="activity-images">
+                    <div class="activity-carousel">
+                        <img src="img/souvenirs/sou4 1.jpg" alt="Sou 1">
+                        <img src="img/souvenirs/sou4 2.jpg" alt="Sou 2">
+                        <img src="img/souvenirs/sou4 3.jpg" alt="Sou 3">
+                    </div>
+                    <button class="nav-arrow left-nav">❮</button>
+                    <button class="nav-arrow right-nav">❯</button>
+                    <div class="image-dots">
+                        <span class="dot active"></span>
+                        <span class="dot"></span>
+                        <span class="dot"></span>
+                    </div>
+                </div>
+                <div class="activity-info">
+                    <h3>Gốm sứ Thanh Hà</h3>
+                    <p class="price">➥ Sản phẩm thủ công từ làng gốm Thanh Hà bao gồm chén, đĩa, bình hoa và tượng nhỏ xinh.</p>
+                </div>
+            </div>
+            <div class="activity-card">
+                <button class="favorite-btn"><i class="fa-regular fa-heart"></i></button>
+                <div class="activity-images">
+                    <div class="activity-carousel">
+                        <img src="img/souvenirs/sou5 1.jpg" alt="Sou 1">
+                        <img src="img/souvenirs/sou5 2.jpg" alt="Sou 2">
+                        <img src="img/souvenirs/sou5 3.jpg" alt="Sou 3">
+                    </div>
+                    <button class="nav-arrow left-nav">❮</button>
+                    <button class="nav-arrow right-nav">❯</button>
+                    <div class="image-dots">
+                        <span class="dot active"></span>
+                        <span class="dot"></span>
+                        <span class="dot"></span>
+                    </div>
+                </div>
+                <div class="activity-info">
+                    <h3>Trang sức và phụ kiện thủ công</h3>
+                    <p class="price">➥ Sản phẩm thủ công làm từ bạc, đá thiên nhiên, vỏ ốc hoặc gỗ, với nhiều món thiết kế độc đáo.</p>
+                </div>
+            </div>
+            <div class="activity-card">
+                <button class="favorite-btn"><i class="fa-regular fa-heart"></i></button>
+                <div class="activity-images">
+                    <div class="activity-carousel">
+                        <img src="img/souvenirs/sou6 1.jpg" alt="Sou 1">
+                        <img src="img/souvenirs/sou6 2.jpg" alt="Sou 2">
+                        <img src="img/souvenirs/sou6 3.jpg" alt="Sou 3">
+                    </div>
+                    <button class="nav-arrow left-nav">❮</button>
+                    <button class="nav-arrow right-nav">❯</button>
+                    <div class="image-dots">
+                        <span class="dot active"></span>
+                        <span class="dot"></span>
+                        <span class="dot"></span>
+                    </div>
+                </div>
+                <div class="activity-info">
+                    <h3>Xà phòng và tinh dầu thiên nhiên</h3>
+                    <p class="price">➥ Sản phẩm làm từ thảo mộc như hoa, sả chanh, quế,... được đóng gói đẹp, mùi thơm dễ chịu, thích hợp làm quà tặng.</p>
+                </div>
+            </div>
+            <div class="activity-card">
+                <button class="favorite-btn"><i class="fa-regular fa-heart"></i></button>
+                <div class="activity-images">
+                    <div class="activity-carousel">
+                        <img src="img/souvenirs/sou7 1.jpg" alt="Sou 1">
+                        <img src="img/souvenirs/sou7 2.jpg" alt="Sou 2">
+                        <img src="img/souvenirs/sou7 3.jpg" alt="Sou 3">
+                    </div>
+                    <button class="nav-arrow left-nav">❮</button>
+                    <button class="nav-arrow right-nav">❯</button>
+                    <div class="image-dots">
+                        <span class="dot active"></span>
+                        <span class="dot"></span>
+                        <span class="dot"></span>
+                    </div>
+                </div>
+                <div class="activity-info">
+                    <h3>Đặc sản khô & bánh kẹo</h3>
+                    <p class="price">➥ Đặc sản gồm bánh đậu xanh, mè xửng, bánh in, bánh tổ, cùng các món như tỏi Lý Sơn, hạt điều, mứt và trà thảo mộc.</p>
+                </div>
+            </div>
+            <div class="activity-card">
+                <button class="favorite-btn"><i class="fa-regular fa-heart"></i></button>
+                <div class="activity-images">
+                    <div class="activity-carousel">
+                        <img src="img/souvenirs/sou8 1.jpg" alt="Sou 1">
+                        <img src="img/souvenirs/sou8 2.jpg" alt="Sou 2">
+                        <img src="img/souvenirs/sou8 3.jpg" alt="Sou 3">
+                    </div>
+                    <button class="nav-arrow left-nav">❮</button>
+                    <button class="nav-arrow right-nav">❯</button>
+                    <div class="image-dots">
+                        <span class="dot active"></span>
+                        <span class="dot"></span>
+                        <span class="dot"></span>
+                    </div>
+                </div>
+                <div class="activity-info">
+                    <h3>Tranh vẽ và postcard Hội An</h3>
+                    <p class="price">➥ Các sản phẩm nghệ thuật như tranh sơn dầu, tranh màu nước vẽ phố cổ và postcard in hình Hội An cổ kính, lãng mạn, mang đậm nét đẹp hoài niệm.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        const carousel = document.getElementById('carousel');
+        const leftArrow = document.querySelector('.carousel-container .left-nav');
+        const rightArrow = document.querySelector('.carousel-container .right-nav');
+        const dots = document.querySelectorAll('.carousel-container .dot');
+        let currentIndex = 0;
+
+        function updateCarousel() {
+            carousel.style.transform = `translateX(-${currentIndex * 100}%)`;
+            dots.forEach((dot, index) => {
+                dot.classList.toggle('active', index === currentIndex);
+            });
+        }
+
+        leftArrow.addEventListener('click', () => {
+            currentIndex = (currentIndex > 0) ? currentIndex - 1 : dots.length - 1;
+            updateCarousel();
+        });
+
+        rightArrow.addEventListener('click', () => {
+            currentIndex = (currentIndex < dots.length - 1) ? currentIndex + 1 : 0;
+            updateCarousel();
+        });
+
+        dots.forEach((dot, index) => {
+            dot.addEventListener('click', () => {
+                currentIndex = index;
+                updateCarousel();
+            });
+        });
+
+        const readMoreLink = document.getElementById('readMore');
+        const description = document.getElementById('description');
+        const readMoreText = readMoreLink.querySelector('.read-more-text');
+        
+        readMoreLink.addEventListener('click', (e) => {
+            e.preventDefault();
+            description.classList.toggle('expanded');
+            const isExpanded = description.classList.contains('expanded');
+            readMoreText.textContent = isExpanded ? 'Thu gọn' : 'Đọc thêm';
+            readMoreLink.querySelector('i').className = isExpanded ? 'fa-solid fa-angle-up' : 'fa-solid fa-angle-down';
+        });
+
+        document.querySelectorAll('.hotel-card').forEach(card => {
+            const carousel = card.querySelector('.hotel-carousel');
+            const images = card.querySelectorAll('.hotel-carousel img');
+            const dots = card.querySelectorAll('.image-dots .dot');
+            const leftNav = card.querySelector('.left-nav');
+            const rightNav = card.querySelector('.right-nav');
+            let currentIndex = 0;
+
+            function updateCarousel() {
+                carousel.style.transform = `translateX(-${currentIndex * 100}%)`;
+                dots.forEach((dot, index) => {
+                    dot.classList.toggle('active', index === currentIndex);
+                });
+            }
+
+            leftNav.addEventListener('click', (e) => {
+                e.preventDefault();
+                currentIndex = (currentIndex > 0) ? currentIndex - 1 : images.length - 1;
+                updateCarousel();
+            });
+
+            rightNav.addEventListener('click', (e) => {
+                e.preventDefault();
+                currentIndex = (currentIndex < images.length - 1) ? currentIndex + 1 : 0;
+                updateCarousel();
+            });
+
+            dots.forEach((dot, index) => {
+                dot.addEventListener('click', () => {
+                    currentIndex = index;
+                    updateCarousel();
+                });
+            });
+        });
+
+        document.querySelectorAll('.activity-card').forEach(card => {
+            const carousel = card.querySelector('.activity-carousel');
+            const images = card.querySelectorAll('.activity-carousel img');
+            const dots = card.querySelectorAll('.image-dots .dot');
+            const leftNav = card.querySelector('.left-nav');
+            const rightNav = card.querySelector('.right-nav');
+            let currentIndex = 0;
+
+            function updateCarousel() {
+                carousel.style.transform = `translateX(-${currentIndex * 100}%)`;
+                dots.forEach((dot, index) => {
+                    dot.classList.toggle('active', index === currentIndex);
+                });
+            }
+
+            leftNav.addEventListener('click', (e) => {
+                e.preventDefault();
+                currentIndex = (currentIndex > 0) ? currentIndex - 1 : images.length - 1;
+                updateCarousel();
+            });
+
+            rightNav.addEventListener('click', (e) => {
+                e.preventDefault();
+                currentIndex = (currentIndex < images.length - 1) ? currentIndex + 1 : 0;
+                updateCarousel();
+            });
+
+            dots.forEach((dot, index) => {
+                dot.addEventListener('click', () => {
+                    currentIndex = index;
+                    updateCarousel();
+                });
+            });
+        });
+
+        document.querySelectorAll('.favorite-btn').forEach(btn => {
+            btn.addEventListener('click', function(e) {
+                e.stopPropagation();
+                btn.classList.toggle('active');
+                const icon = btn.querySelector('i');
+                if (btn.classList.contains('active')) {
+                    icon.classList.remove('fa-regular');
+                    icon.classList.add('fa-solid');
+                } else {
+                    icon.classList.remove('fa-solid');
+                    icon.classList.add('fa-regular');
+                }
+            });
+        });
+    </script>
+</body>
+</html>

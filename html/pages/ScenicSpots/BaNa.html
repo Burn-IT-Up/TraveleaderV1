@@ -1,0 +1,775 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bà Nà Hills (Đà Nẵng)</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <a href="../../index.html" class="back-button">
+        <i class="fa-solid fa-arrow-left"></i>
+        Quay lại trang chủ
+    </a>
+    <div class="hero-section">
+        <div class="carousel-container">
+            <div class="carousel" id="carousel">
+                <img src="img/bana1.jpg" alt="Ba Na 1">
+                <img src="img/bana2.jpg" alt="Ba Na 2">
+                <img src="img/bana3.jpg" alt="Ba Na 3">
+                <img src="img/bana4.jpg" alt="Ba Na 4">
+                <img src="img/bana5.jpg" alt="Ba Na 5">
+                <img src="img/bana6.jpg" alt="Ba Na 6">
+            </div>
+            <button class="nav-arrow left-nav" id="leftArrow">❮</button>
+            <button class="nav-arrow right-nav" id="rightArrow">❯</button>
+            <div class="dots" id="dots">
+                <span class="dot active"></span>
+                <span class="dot"></span>
+                <span class="dot"></span>
+                <span class="dot"></span>
+                <span class="dot"></span>
+                <span class="dot"></span>
+            </div>
+        </div>
+    </div>
+
+    <div class="location-info">
+        <div class="title-container">
+            <h1>Bà Nà Hills (Đà Nẵng)</h1>
+            <button class="save-button"><i class="fa-regular fa-bookmark"></i> Lưu</button>
+        </div>
+        <p class="description" id="description">Du lịch Bà Nà Hills là hành trình khám phá "chốn bồng lai tiên cảnh" giữa lòng Đà Nẵng. Nằm ở độ cao gần 1.500m so với mực nước biển, nơi đây sở hữu khí hậu mát mẻ quanh năm và cảnh sắc thay đổi theo mùa. Du khách sẽ được chiêm ngưỡng Cầu Vàng nổi tiếng, dạo bước qua làng Pháp cổ kính, thư giãn tại vườn hoa Le Jardin D'Amour, và tận hưởng không khí sôi động tại Fantasy Park – khu vui chơi trong nhà lớn nhất Việt Nam.
+
+            Không chỉ là điểm đến lý tưởng để nghỉ dưỡng và giải trí, Bà Nà Hills còn là nơi mang lại cảm giác bình yên, giúp du khách tạm gác lại bộn bề cuộc sống, tìm lại nguồn cảm hứng giữa thiên nhiên và không gian kiến trúc độc đáo. Một chuyến đi đến Bà Nà là sự kết hợp tuyệt vời giữa khám phá, thư giãn và trải nghiệm văn hóa đầy ấn tượng.</p>
+        <a href="#" class="read-more" id="readMore"><span class="read-more-text">Đọc thêm</span> <i class="fa-solid fa-angle-down"></i></a>
+    </div>
+
+    <div class="travel-advice">
+        <h2>Bật mí những trải nghiệm khi đến Bà Nà Hills</h2>
+        <div class="advice-grid">
+            <div class="advice-card">
+                <div class="advice-content">
+                    <h3>Check-in Cầu Vàng huyền thoại</h3>
+                    <p>Cây cầu độc đáo được nâng đỡ bởi đôi bàn tay khổng lồ giữa trời mây, là điểm "sống ảo" nổi tiếng toàn cầu.</p>
+                </div>
+            </div>
+            <div class="advice-card">
+                <div class="advice-content">
+                    <h3>Dạo chơi tại làng Pháp cổ kính</h3>
+                    <p>Tái hiện kiến trúc châu Âu với quảng trường, tháp chuông, nhà thờ cổ… mang lại cảm giác như đang du lịch trời Tây.</p>
+                </div>
+            </div>
+            <div class="advice-card">
+                <div class="advice-content">
+                    <h3>Thả hồn giữa vườn hoa Le Jardin D'Amour</h3>
+                    <p>Nơi quy tụ hàng ngàn loài hoa khoe sắc quanh năm, tạo nên khung cảnh lãng mạn và thơ mộng.</p>
+                </div>
+            </div>
+            <div class="advice-card">
+                <div class="advice-content">
+                    <h3>Thử thách bản thân tại Fantasy Park</h3>
+                    <p>Công viên giải trí trong nhà lớn nhất Việt Nam với hàng trăm trò chơi từ nhẹ nhàng đến cảm giác mạnh.</p>
+                </div>
+            </div>
+            <div class="advice-card">
+                <div class="advice-content">
+                    <h3>Trải nghiệm cáp treo đạt nhiều kỷ lục thế giới</h3>
+                    <p>Ngắm toàn cảnh rừng núi hùng vĩ từ trên cao, một cảm giác vừa hồi hộp vừa mê đắm.</p>
+                </div>
+            </div>
+            <div class="advice-card">
+                <div class="advice-content">
+                    <h3>Thưởng thức ẩm thực đa dạng</h3>
+                    <p>Từ buffet sang trọng đến các món ăn truyền thống Việt Nam, Hàn, Nhật… đều hội tụ tại Bà Nà.</p>
+                </div>
+            </div>
+            <div class="advice-card">
+                <div class="advice-content">
+                    <h3>Săn mây và ngắm bình minh</h3>
+                    <p>Nếu đi từ sáng sớm, bạn sẽ có cơ hội chiêm ngưỡng biển mây trắng bồng bềnh ôm lấy núi rừng kỳ ảo.</p>
+                </div>
+            </div>
+            <div class="advice-card">
+                <div class="advice-content">
+                    <h3>Lạc vào làng Pháp giữa lòng Đà Nẵng</h3>
+                    <p>Những tòa lâu đài cổ kính, con đường lát đá, nhà thờ châu Âu… tạo cảm giác như đang vi vu trời Tây. Đừng quên thử diện đồ cổ điển để có bộ ảnh cực chất nhé!</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="places-to-stay">
+        <div class="section-header">
+            <h2>Nơi nghỉ ngơi lý tưởng tại Bà Nà Hills</h2>
+            
+        </div>
+        <div class="hotels-grid">
+            <div class="hotel-card">
+                <div class="hotel-images">
+                    <button class="favorite-btn"><i class="fa-regular fa-heart"></i></button>
+                    <div class="hotel-carousel">
+                        <img src="img/place/hotel12 1.jpg" alt="Hotel view 1">
+                        <img src="img/place/hotel12 2.jpg" alt="Hotel view 2">
+                        <img src="img/place/hotel12 3.jpg" alt="Hotel view 3">
+                        <img src="img/place/hotel12 4.jpg" alt="Hotel view 4">
+                        <img src="img/place/hotel12 5.jpg" alt="Hotel view 5">
+                    </div>
+                    <button class="nav-arrow left-nav">❮</button>
+                    <button class="nav-arrow right-nav">❯</button>
+                    <div class="image-dots">
+                        <span class="dot active"></span>
+                        <span class="dot"></span>
+                        <span class="dot"></span>
+                        <span class="dot"></span>
+                        <span class="dot"></span>
+                    </div>
+                </div>
+                <div class="hotel-info">
+                    <h3>Mercure Danang French Village Bana Hills</h3>
+                    <div class="rating">
+                        <span class="score">4.0 </span>
+                        <span class="stars">★★★★☆</span>
+                        <span class="reviews">(4,248)</span>
+                    </div>
+                </div>
+            </div>
+            <div class="hotel-card">
+                <div class="hotel-images">
+                    <button class="favorite-btn"><i class="fa-regular fa-heart"></i></button>
+                    <div class="hotel-carousel">
+                        <img src="img/place/hotel22 1.jpg" alt="Hotel view 1">
+                        <img src="img/place/hotel22 2.jpg" alt="Hotel view 2">
+                        <img src="img/place/hotel22 3.jpg" alt="Hotel view 3">
+                        <img src="img/place/hotel22 4.jpg" alt="Hotel view 4">
+                        <img src="img/place/hotel22 5.jpg" alt="Hotel view 5">
+                    </div>
+                    <button class="nav-arrow left-nav">❮</button>
+                    <button class="nav-arrow right-nav">❯</button>
+                    <div class="image-dots">
+                        <span class="dot active"></span>
+                        <span class="dot"></span>
+                        <span class="dot"></span>
+                        <span class="dot"></span>
+                        <span class="dot"></span>
+                    </div>
+                </div>
+                <div class="hotel-info">
+                    <h3>Chez Vous Boutique Studio Apartment</h3>
+                    <div class="rating">
+                        <span class="score">4.0</span>
+                        <span class="stars">★★★★☆</span>
+                        <span class="reviews">(981)</span>
+                    </div>
+                </div>
+            </div>
+            <div class="hotel-card">
+                <div class="hotel-images">
+                    <button class="favorite-btn"><i class="fa-regular fa-heart"></i></button>
+                    <div class="hotel-carousel">
+                        <img src="img/place/hotel32 1.jpg" alt="Hotel view 1">
+                        <img src="img/place/hotel32 2.jpg" alt="Hotel view 2">
+                        <img src="img/place/hotel32 3.jpg" alt="Hotel view 3">
+                        <img src="img/place/hotel32 4.jpg" alt="Hotel view 4">
+                        <img src="img/place/hotel32 5.jpg" alt="Hotel view 5">
+                    </div>
+                    <button class="nav-arrow left-nav">❮</button>
+                    <button class="nav-arrow right-nav">❯</button>
+                    <div class="image-dots">
+                        <span class="dot active"></span>
+                        <span class="dot"></span>
+                        <span class="dot"></span>
+                        <span class="dot"></span>
+                        <span class="dot"></span>
+                    </div>
+                </div>
+                <div class="hotel-info">
+                    <h3>Nui Than Tai - Ebisu Onsen Resort</h3>
+                    <div class="rating">
+                        <span class="score">4.3</span>
+                        <span class="stars">★★★★☆</span>
+                        <span class="reviews">(975)</span>
+                    </div>
+                </div>
+            </div>
+            <div class="hotel-card">
+                <div class="hotel-images">
+                    <button class="favorite-btn"><i class="fa-regular fa-heart"></i></button>
+                    <div class="hotel-carousel">
+                        <img src="img/place/hotel42 1.jpg" alt="Hotel view 1">
+                        <img src="img/place/hotel42 2.jpg" alt="Hotel view 2">
+                        <img src="img/place/hotel42 3.jpg" alt="Hotel view 3">
+                        <img src="img/place/hotel42 4.jpg" alt="Hotel view 4">
+                        <img src="img/place/hotel42 5.jpg" alt="Hotel view 5">
+                    </div>
+                    <button class="nav-arrow left-nav">❮</button>
+                    <button class="nav-arrow right-nav">❯</button>
+                    <div class="image-dots">
+                        <span class="dot active"></span>
+                        <span class="dot"></span>
+                        <span class="dot"></span>
+                        <span class="dot"></span>
+                        <span class="dot"></span>
+                    </div>
+                </div>
+                <div class="hotel-info">
+                    <h3>Debay Ba Na Hills Hotel</h3>
+                    <div class="rating">
+                        <span class="score">4.4</span>
+                        <span class="stars">★★★★☆</span>
+                        <span class="reviews">(427)</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="hotel-card">
+                <div class="hotel-images">
+                    <button class="favorite-btn"><i class="fa-regular fa-heart"></i></button>
+                    <div class="hotel-carousel">
+                        <img src="img/place/hotel52 1.jpg" alt="Hotel view 1">
+                        <img src="img/place/hotel52 2.jpg" alt="Hotel view 2">
+                        <img src="img/place/hotel52 3.jpg" alt="Hotel view 3">
+                        <img src="img/place/hotel52 4.jpg" alt="Hotel view 4">
+                        <img src="img/place/hotel52 5.jpg" alt="Hotel view 5">
+                    </div>
+                    <button class="nav-arrow left-nav">❮</button>
+                    <button class="nav-arrow right-nav">❯</button>
+                    <div class="image-dots">
+                        <span class="dot active"></span>
+                        <span class="dot"></span>
+                        <span class="dot"></span>
+                        <span class="dot"></span>
+                        <span class="dot"></span>
+                    </div>
+                </div>
+                <div class="hotel-info">
+                    <h3>Làng Toom Sara Đà Nẵng</h3>
+                    <div class="rating">
+                        <span class="score">4.0</span>
+                        <span class="stars">★★★★☆</span>
+                        <span class="reviews">(281)</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="hotel-card">
+                <div class="hotel-images">
+                    <button class="favorite-btn"><i class="fa-regular fa-heart"></i></button>
+                    <div class="hotel-carousel">
+                        <img src="img/place/hotel62 1.jpg" alt="Hotel view 1">
+                        <img src="img/place/hotel62 2.jpg" alt="Hotel view 2">
+                        <img src="img/place/hotel62 3.jpg" alt="Hotel view 3">
+                        <img src="img/place/hotel62 4.jpg" alt="Hotel view 4">
+                        <img src="img/place/hotel62 5.jpg" alt="Hotel view 5">
+                    </div>
+                    <button class="nav-arrow left-nav">❮</button>
+                    <button class="nav-arrow right-nav">❯</button>
+                    <div class="image-dots">
+                        <span class="dot active"></span>
+                        <span class="dot"></span>
+                        <span class="dot"></span>
+                        <span class="dot"></span>
+                        <span class="dot"></span>
+                    </div>
+                </div>
+                <div class="hotel-info">
+                    <h3>Lá Retreat</h3>
+                    <div class="rating">
+                        <span class="score">4.7</span>
+                        <span class="stars">★★★★☆</span>
+                        <span class="reviews">(1,369)</span>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+
+    <div class="places-to-stay">
+        <div class="section-header">
+            <h2>Những hoạt động không thể bỏ lỡ tại Bà Nà Hills</h2>
+            
+        </div>
+        <div class="activities-grid">
+            <div class="activity-card">
+                <div class="activity-images">
+                    <button class="favorite-btn"><i class="fa-regular fa-heart"></i></button>
+                    <div class="activity-carousel">
+                        <img src="img/activity/act12 1.jpg" alt="Act 1">
+                        <img src="img/activity/act12 2.jpg" alt="Act 2">
+                        <img src="img/activity/act12 3.jpg" alt="Act 3">
+                    </div>
+                    <button class="nav-arrow left-nav">❮</button>
+                    <button class="nav-arrow right-nav">❯</button>
+                    <div class="image-dots">
+                        <span class="dot active"></span>
+                        <span class="dot"></span>
+                        <span class="dot"></span>
+                    </div>
+                </div>
+                <div class="activity-info">
+                    <h3>Dạo bước trên Cầu Vàng</h3>
+                    <p class="price">➥ Biểu tượng nổi tiếng toàn cầu, cây cầu uốn lượn trên tay khổng lồ là điểm check-in nổi bật, đẹp nhất vào sáng sớm hoặc chiều tà.</p>
+                </div>
+            </div>
+            <div class="activity-card">
+                <div class="activity-images">
+                    <button class="favorite-btn"><i class="fa-regular fa-heart"></i></button>
+                    <div class="activity-carousel">
+                        <img src="img/activity/act22 1.jpg" alt="Act 1">
+                        <img src="img/activity/act22 2.jpg" alt="Act 2">
+                        <img src="img/activity/act22 3.jpg" alt="Act 3">
+                    </div>
+                    <button class="nav-arrow left-nav">❮</button>
+                    <button class="nav-arrow right-nav">❯</button>
+                    <div class="image-dots">
+                        <span class="dot active"></span>
+                        <span class="dot"></span>
+                        <span class="dot"></span>
+                    </div>
+                </div>
+                <div class="activity-info">
+                    <h3>Tham quan Làng Pháp</h3>
+                    <p class="price">➥ Khu vực tái hiện kiến trúc Pháp với quảng trường, nhà thờ, lâu đài, và các chương trình biểu diễn nghệ thuật đường phố theo chủ đề châu Âu.</p>
+                </div>
+                </div>
+            <div class="activity-card">
+                <div class="activity-images">
+                    <button class="favorite-btn"><i class="fa-regular fa-heart"></i></button>
+                    <div class="activity-carousel">
+                        <img src="img/activity/act32 1.jpg" alt="Act 1">
+                        <img src="img/activity/act32 2.jpg" alt="Act 2">
+                        <img src="img/activity/act32 3.jpg" alt="Act 3">
+                    </div>
+                    <button class="nav-arrow left-nav">❮</button>
+                    <button class="nav-arrow right-nav">❯</button>
+                    <div class="image-dots">
+                        <span class="dot active"></span>
+                        <span class="dot"></span>
+                        <span class="dot"></span>
+                    </div>
+                </div>
+                <div class="activity-info">
+                    <h3>Trải nghiệm cáp treo Bà Nà</h3>
+                    <p class="price">➥ Tuyến cáp treo kỷ lục Guinness dài hơn 5.800m, giúp bạn bay qua rừng nguyên sinh và ngắm núi non hùng vĩ từ trên cao.</p>
+                </div>
+            </div>
+            <div class="activity-card">
+                <div class="activity-images">
+                    <button class="favorite-btn"><i class="fa-regular fa-heart"></i></button>
+                    <div class="activity-carousel">
+                        <img src="img/activity/act42 1.jpg" alt="Act 1">
+                        <img src="img/activity/act42 2.jpg" alt="Act 2">
+                        <img src="img/activity/act42 3.jpg" alt="Act 3">
+                    </div>
+                    <button class="nav-arrow left-nav">❮</button>
+                    <button class="nav-arrow right-nav">❯</button>
+                    <div class="image-dots">
+                        <span class="dot active"></span>
+                        <span class="dot"></span>
+                        <span class="dot"></span>
+                    </div>
+                </div>
+                <div class="activity-info">
+                    <h3>Viếng thăm chùa Linh Ứng</h3>
+                    <p class="price">➥ Chùa cổ kính ở độ cao gần 1.500m, nổi bật với tượng Phật Thích Ca cao 27m, mang không gian linh thiêng, yên tĩnh, lý tưởng để tịnh tâm.</p>
+                </div>
+            </div>
+            <div class="activity-card">
+                <div class="activity-images">
+                    <button class="favorite-btn"><i class="fa-regular fa-heart"></i></button>
+                    <div class="activity-carousel">
+                        <img src="img/activity/act52 1.jpg" alt="Act 1">
+                        <img src="img/activity/act52 2.jpg" alt="Act 2">
+                        <img src="img/activity/act52 3.jpg" alt="Act 3">
+                    </div>
+                    <button class="nav-arrow left-nav">❮</button>
+                    <button class="nav-arrow right-nav">❯</button>
+                    <div class="image-dots">
+                        <span class="dot active"></span>
+                        <span class="dot"></span>
+                        <span class="dot"></span>
+                    </div>
+                </div>
+                <div class="activity-info">
+                    <h3>Chơi tại Fantasy Park</h3>
+                    <p class="price">➥ Diện tích hơn 21.000m² với hàng chục trò chơi như tàu lượn, nhà ma, phim 4D, khu leo núi nhân tạo, mê cung và đu quay, phù hợp cho cả trẻ em và người lớn.</p>
+                </div>
+            </div>
+            <div class="activity-card">
+                <div class="activity-images">
+                    <button class="favorite-btn"><i class="fa-regular fa-heart"></i></button>
+                    <div class="activity-carousel">
+                        <img src="img/activity/act62 1.jpg" alt="Act 1">
+                        <img src="img/activity/act62 2.jpg" alt="Act 2">
+                        <img src="img/activity/act62 3.jpg" alt="Act 3">
+                    </div>
+                    <button class="nav-arrow left-nav">❮</button>
+                    <button class="nav-arrow right-nav">❯</button>
+                    <div class="image-dots">
+                        <span class="dot active"></span>
+                        <span class="dot"></span>
+                        <span class="dot"></span>
+                    </div>
+                </div>
+                <div class="activity-info">
+                    <h3>Khám phá Hầm rượu Debay</h3>
+                    <p class="price">➥ Hầm rượu xây dựng từ năm 1923, sâu trong lòng núi, có khu trưng bày rượu vang và dịch vụ nếm thử (tùy tour). Đây là điểm lý tưởng để khám phá lịch sử và tận hưởng không gian mát lạnh tự nhiên. </p>
+                </div>
+            </div>
+            <div class="activity-card">
+                <div class="activity-images">
+                    <button class="favorite-btn"><i class="fa-regular fa-heart"></i></button>
+                    <div class="activity-carousel">
+                        <img src="img/activity/act72 1.jpg" alt="Act 1">
+                        <img src="img/activity/act72 2.jpg" alt="Act 2">
+                        <img src="img/activity/act72 3.jpg" alt="Act 3">
+                    </div>
+                    <button class="nav-arrow left-nav">❮</button>
+                    <button class="nav-arrow right-nav">❯</button>
+                    <div class="image-dots">
+                        <span class="dot active"></span>
+                        <span class="dot"></span>
+                        <span class="dot"></span>
+                    </div>
+                </div>
+                <div class="activity-info">
+                    <h3>Chụp hình tại vườn hoa Le Jardin D'Amour</h3>
+                    <p class="price">➥ Khu vườn gồm 9 chủ đề độc đáo như vườn suối mơ, vườn bí ẩn, vườn thần thoại… với thiết kế riêng biệt, lý tưởng cho việc chụp ảnh cặp đôi hoặc gia đình.</p>
+                </div>
+            </div>
+            <div class="activity-card">
+                <div class="activity-images">
+                    <button class="favorite-btn"><i class="fa-regular fa-heart"></i></button>
+                    <div class="activity-carousel">
+                        <img src="img/activity/act82 1.jpg" alt="Act 1">
+                        <img src="img/activity/act82 2.jpg" alt="Act 2">
+                        <img src="img/activity/act82 3.jpg" alt="Act 3">
+                    </div>
+                    <button class="nav-arrow left-nav">❮</button>
+                    <button class="nav-arrow right-nav">❯</button>
+                    <div class="image-dots">
+                        <span class="dot active"></span>
+                        <span class="dot"></span>
+                        <span class="dot"></span>
+                    </div>
+                </div>
+                <div class="activity-info">
+                    <h3>Thưởng thức lễ hội và show biểu diễn</h3>
+                    <p class="price">➥ Các show diễn như "Vũ hội Ánh Dương", "Carnival mùa hè", "Lễ hội bia Đức" được tổ chức theo mùa, mang đến không khí lễ hội sôi động và đặc sắc.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="places-to-stay">
+        <div class="section-header">
+            <h2>Những món quà nhỏ mang hương vị Bà Nà Hills</h2>
+            
+        </div>
+        <div class="activities-grid">
+            <div class="activity-card">
+                <div class="activity-images">
+                    <button class="favorite-btn"><i class="fa-regular fa-heart"></i></button>
+                    <div class="activity-carousel">
+                        <img src="img/souvenirs/sou12 1.jpg" alt="Sou 1">
+                        <img src="img/souvenirs/sou12 2.jpg" alt="Sou 2">
+                        <img src="img/souvenirs/sou12 3.jpg" alt="Sou 3">
+                    </div>
+                    <button class="nav-arrow left-nav">❮</button>
+                    <button class="nav-arrow right-nav">❯</button>
+                    <div class="image-dots">
+                        <span class="dot active"></span>
+                        <span class="dot"></span>
+                        <span class="dot"></span>
+                    </div>
+                </div>
+                <div class="activity-info">
+                    <h3>Mật ong rừng Bà Nà</h3>
+                    <p class="price">Khoảng 200.000 - 500.000 VND</p>
+                </div>
+            </div>
+            <div class="activity-card">
+                <div class="activity-images">
+                    <button class="favorite-btn"><i class="fa-regular fa-heart"></i></button>
+                    <div class="activity-carousel">
+                        <img src="img/souvenirs/sou22 1.jpg" alt="Sou 1">
+                        <img src="img/souvenirs/sou22 2.jpg" alt="Sou 2">
+                        <img src="img/souvenirs/sou22 3.jpg" alt="Sou 3">
+                    </div>
+                    <button class="nav-arrow left-nav">❮</button>
+                    <button class="nav-arrow right-nav">❯</button>
+                    <div class="image-dots">
+                        <span class="dot active"></span>
+                        <span class="dot"></span>
+                        <span class="dot"></span>
+                    </div>
+                </div>
+                <div class="activity-info">
+                    <h3>Chocolate Bà Nà</h3>
+                    <p class="price">Khoảng 100.000 - 300.000 VND</p>
+                </div>
+                </div>
+            <div class="activity-card">
+                <div class="activity-images">
+                    <button class="favorite-btn"><i class="fa-regular fa-heart"></i></button>
+                    <div class="activity-carousel">
+                        <img src="img/souvenirs/sou32 1.jpg" alt="Sou 1">
+                        <img src="img/souvenirs/sou32 2.jpg" alt="Sou 2">
+                        <img src="img/souvenirs/sou32 3.jpg" alt="Sou 3">
+                    </div>
+                    <button class="nav-arrow left-nav">❮</button>
+                    <button class="nav-arrow right-nav">❯</button>
+                    <div class="image-dots">
+                        <span class="dot active"></span>
+                        <span class="dot"></span>
+                        <span class="dot"></span>
+                    </div>
+                </div>
+                <div class="activity-info">
+                    <h3>Trà thảo mộc Bà Nà</h3>
+                    <p class="price">Khoảng 80.000 - 300.000 VND</p>
+                </div>
+            </div>
+            <div class="activity-card">
+                <div class="activity-images">
+                    <button class="favorite-btn"><i class="fa-regular fa-heart"></i></button>
+                    <div class="activity-carousel">
+                        <img src="img/souvenirs/sou42 1.jpg" alt="Sou 1">
+                        <img src="img/souvenirs/sou42 2.jpg" alt="Sou 2">
+                        <img src="img/souvenirs/sou42 3.jpg" alt="Sou 3">
+                    </div>
+                    <button class="nav-arrow left-nav">❮</button>
+                    <button class="nav-arrow right-nav">❯</button>
+                    <div class="image-dots">
+                        <span class="dot active"></span>
+                        <span class="dot"></span>
+                        <span class="dot"></span>
+                    </div>
+                </div>
+                <div class="activity-info">
+                    <h3>Sữa dê Bà Nà</h3>
+                    <p class="price">Khoảng 50.000 - 150.000 VND</p>
+                </div>
+            </div>
+            <div class="activity-card">
+                <div class="activity-images">
+                    <button class="favorite-btn"><i class="fa-regular fa-heart"></i></button>
+                    <div class="activity-carousel">
+                        <img src="img/souvenirs/sou52 1.jpg" alt="Sou 1">
+                        <img src="img/souvenirs/sou52 2.jpg" alt="Sou 2">
+                        <img src="img/souvenirs/sou52 3.jpg" alt="Sou 3">
+                    </div>
+                    <button class="nav-arrow left-nav">❮</button>
+                    <button class="nav-arrow right-nav">❯</button>
+                    <div class="image-dots">
+                        <span class="dot active"></span>
+                        <span class="dot"></span>
+                        <span class="dot"></span>
+                    </div>
+                </div>
+                <div class="activity-info">
+                    <h3>Nước hoa Bà Nà</h3>
+                    <p class="price">Khoảng 200.000 - 800.000 VND</p>
+                </div>
+            </div>
+            <div class="activity-card">
+                <div class="activity-images">
+                    <button class="favorite-btn"><i class="fa-regular fa-heart"></i></button>
+                    <div class="activity-carousel">
+                        <img src="img/souvenirs/sou62 1.jpg" alt="Sou 1">
+                        <img src="img/souvenirs/sou62 2.jpg" alt="Sou 2">
+                        <img src="img/souvenirs/sou62 3.jpg" alt="Sou 3">
+                    </div>
+                    <button class="nav-arrow left-nav">❮</button>
+                    <button class="nav-arrow right-nav">❯</button>
+                    <div class="image-dots">
+                        <span class="dot active"></span>
+                        <span class="dot"></span>
+                        <span class="dot"></span>
+                    </div>
+                </div>
+                <div class="activity-info">
+                    <h3>Rượu vang Bà Nà</h3>
+                    <p class="price">Khoảng 300.000 - 1.000.000 VND</p>
+                </div>
+            </div>
+            <div class="activity-card">
+                <div class="activity-images">
+                    <button class="favorite-btn"><i class="fa-regular fa-heart"></i></button>
+                    <div class="activity-carousel">
+                        <img src="img/souvenirs/sou72 1.jpg" alt="Sou 1">
+                        <img src="img/souvenirs/sou72 2.jpg" alt="Sou 2">
+                        <img src="img/souvenirs/sou72 3.jpg" alt="Sou 3">
+                    </div>
+                    <button class="nav-arrow left-nav">❮</button>
+                    <button class="nav-arrow right-nav">❯</button>
+                    <div class="image-dots">
+                        <span class="dot active"></span>
+                        <span class="dot"></span>
+                        <span class="dot"></span>
+                    </div>
+                </div>
+                <div class="activity-info">
+                    <h3>Nấm linh chi Bà Nà</h3>
+                    <p class="price">Khoảng 300.000 - 800.000 VND</p>
+                </div>
+            </div>
+            <div class="activity-card">
+                <div class="activity-images">
+                    <button class="favorite-btn"><i class="fa-regular fa-heart"></i></button>
+                    <div class="activity-carousel">
+                        <img src="img/souvenirs/sou82 1.jpg" alt="Sou 1">
+                        <img src="img/souvenirs/sou82 2.jpg" alt="Sou 2">
+                        <img src="img/souvenirs/sou82 3.jpg" alt="Sou 3">
+                    </div>
+                    <button class="nav-arrow left-nav">❮</button>
+                    <button class="nav-arrow right-nav">❯</button>
+                    <div class="image-dots">
+                        <span class="dot active"></span>
+                        <span class="dot"></span>
+                        <span class="dot"></span>
+                    </div>
+                </div>
+                <div class="activity-info">
+                    <h3>Gia vị đặc sản Bà Nà</h3>
+                    <p class="price">Khoảng 50.000 - 150.000 VND</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        const carousel = document.getElementById('carousel');
+        const leftArrow = document.querySelector('.carousel-container .left-nav');
+        const rightArrow = document.querySelector('.carousel-container .right-nav');
+        const dots = document.querySelectorAll('.carousel-container .dot');
+        let currentIndex = 0;
+
+        function updateCarousel() {
+            carousel.style.transform = `translateX(-${currentIndex * 100}%)`;
+            dots.forEach((dot, index) => {
+                dot.classList.toggle('active', index === currentIndex);
+            });
+        }
+
+        leftArrow.addEventListener('click', () => {
+            currentIndex = (currentIndex > 0) ? currentIndex - 1 : dots.length - 1;
+            updateCarousel();
+        });
+
+        rightArrow.addEventListener('click', () => {
+            currentIndex = (currentIndex < dots.length - 1) ? currentIndex + 1 : 0;
+            updateCarousel();
+        });
+
+        dots.forEach((dot, index) => {
+            dot.addEventListener('click', () => {
+                currentIndex = index;
+                updateCarousel();
+            });
+        });
+
+        const readMoreLink = document.getElementById('readMore');
+        const description = document.getElementById('description');
+        const readMoreText = readMoreLink.querySelector('.read-more-text');
+        
+        readMoreLink.addEventListener('click', (e) => {
+            e.preventDefault();
+            description.classList.toggle('expanded');
+            const isExpanded = description.classList.contains('expanded');
+            readMoreText.textContent = isExpanded ? 'Thu gọn' : 'Đọc thêm';
+            readMoreLink.querySelector('i').className = isExpanded ? 'fa-solid fa-angle-up' : 'fa-solid fa-angle-down';
+        });
+
+        document.querySelectorAll('.hotel-card').forEach(card => {
+            const carousel = card.querySelector('.hotel-carousel');
+            const images = card.querySelectorAll('.hotel-carousel img');
+            const dots = card.querySelectorAll('.image-dots .dot');
+            const leftNav = card.querySelector('.left-nav');
+            const rightNav = card.querySelector('.right-nav');
+            let currentIndex = 0;
+
+            function updateCarousel() {
+                carousel.style.transform = `translateX(-${currentIndex * 100}%)`;
+                dots.forEach((dot, index) => {
+                    dot.classList.toggle('active', index === currentIndex);
+                });
+            }
+
+            leftNav.addEventListener('click', (e) => {
+                e.preventDefault();
+                currentIndex = (currentIndex > 0) ? currentIndex - 1 : images.length - 1;
+                updateCarousel();
+            });
+
+            rightNav.addEventListener('click', (e) => {
+                e.preventDefault();
+                currentIndex = (currentIndex < images.length - 1) ? currentIndex + 1 : 0;
+                updateCarousel();
+            });
+
+            dots.forEach((dot, index) => {
+                dot.addEventListener('click', () => {
+                    currentIndex = index;
+                    updateCarousel();
+                });
+            });
+        });
+
+        document.querySelectorAll('.activity-card').forEach(card => {
+            const carousel = card.querySelector('.activity-carousel');
+            const images = card.querySelectorAll('.activity-carousel img');
+            const dots = card.querySelectorAll('.image-dots .dot');
+            const leftNav = card.querySelector('.left-nav');
+            const rightNav = card.querySelector('.right-nav');
+            let currentIndex = 0;
+
+            function updateCarousel() {
+                carousel.style.transform = `translateX(-${currentIndex * 100}%)`;
+                dots.forEach((dot, index) => {
+                    dot.classList.toggle('active', index === currentIndex);
+                });
+            }
+
+            leftNav.addEventListener('click', (e) => {
+                e.preventDefault();
+                currentIndex = (currentIndex > 0) ? currentIndex - 1 : images.length - 1;
+                updateCarousel();
+            });
+
+            rightNav.addEventListener('click', (e) => {
+                e.preventDefault();
+                currentIndex = (currentIndex < images.length - 1) ? currentIndex + 1 : 0;
+                updateCarousel();
+            });
+
+            dots.forEach((dot, index) => {
+                dot.addEventListener('click', () => {
+                    currentIndex = index;
+                    updateCarousel();
+                });
+            });
+        });
+
+        document.querySelectorAll('.favorite-btn').forEach(btn => {
+            btn.addEventListener('click', function(e) {
+                e.stopPropagation();
+                btn.classList.toggle('active');
+                const icon = btn.querySelector('i');
+                if (btn.classList.contains('active')) {
+                    icon.classList.remove('fa-regular');
+                    icon.classList.add('fa-solid');
+                } else {
+                    icon.classList.remove('fa-solid');
+                    icon.classList.add('fa-regular');
+                }
+            });
+        });
+    </script>
+</body>
+</html>

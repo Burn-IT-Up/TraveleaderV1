@@ -1,0 +1,46 @@
+# Ignore video files in 'vids' folder
+assets/vids/
+vids/
+
+# Ignore image files (all folders)
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.bmp
+*.tiff
+*.svg
+*.webp
+
+# Ignore video files (just in case)
+*.mp4
+*.mov
+*.avi
+*.mkv
+*.webm
+*.flv
+*.wmv
+
+# Ignore font files (if not critical)
+*.ttf
+*.woff
+*.woff2
+*.otf
+
+# VSCode settings
+.vscode/
+
+# System/macOS files
+.DS_Store
+Thumbs.db
+
+# Log files
+*.log
+npm-debug.log*
+
+# Optional: ignore compressed files
+*.zip
+*.rar
+*.7z
+*.tar
+*.gz
